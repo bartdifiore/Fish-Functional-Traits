@@ -27,7 +27,8 @@ library(janitor)
 
 # Get species list
 
-species_df <- read.csv("Data/Derived/species_dataframe.csv")
+species_df <- read.csv("Data/Derived/species_dataframe.csv") %>%
+  rename(species = validated_species)
 species_list <- unique(species_df$species)
 
 
@@ -175,16 +176,52 @@ trait_db <- extract_traits(species_list) # This list represents all observations
 
 # Extract estimates for unidentified species, only identified to the genus, family, or order level. 
 
-merge_taxon <- FishBase_and_Morphometrics$Z_ik %>% mutate(species = paste(Genus, Species, by = " ")) %>% distinct() %>% mutate(species = as.factor(species))
-merge_taxon <- as.data.frame(merge_taxon)
+need_traits <- species_df %>% 
+  filter(is.na(species)) %>%
+  separate(NOAA_label, into = c("taxa", "junk"), sep = " ", remove = F) %>%
+  select(svspp, NOAA_label, taxa)
 
-temp <- fl %>% 
-  separate(species, into = c("Genus", "Species"), sep = " ")
-  left_join(merge_taxon)
+temp <- fl[fl$species %in% need_traits$taxa, ] # The FishLife data set contains estimates at higher level of organization (labeled as species). 
 
-filter(temp, Genus == "Vinciguerria")
 
-FishBase_and_Morphometrics$Z_ik[FishBase_and_Morphometrics$Z_ik$Genus == "Vinciguerria", ]
+needed_traits <- as.data.frame(matrix(nrow = length(temp$species), ncol = length(names(beuk))+1)) 
+names(needed_traits) <- c(names(beuk), "taxa")
+
+needed_traits <- needed_traits %>%
+  mutate(species = NA, 
+         trophic_level = temp$trophic_level, 
+         reference_tl = "FishLife", 
+         offspring_size = temp$offspring_size, 
+         reference_offspring_size = "FishLife", 
+         age_maturity = temp$age_maturity, 
+         reference_age_maturity = "FishLife", 
+         fecundity = temp$fecundity, 
+         reference_fecundity = "FishLife", 
+         l_inf = temp$l_inf, 
+         k = temp$k, 
+         reference_growth = "FishLife", 
+         max_obs_length = temp$max_obs_length, 
+         reference_length_max = "FishLife", 
+         temperature = temp$temperature,
+         reference_temperature = "FishLife",
+         w_inf = temp$w_inf, 
+         reference_w_inf = temp$w_inf, 
+         natural_mortality = temp$natural_mortality,
+         reference_mortality = "FishLife",
+         length_maturity = temp$length_maturity,
+         reference_length_maturity = "FishLife", 
+         taxa = temp$species) %>% 
+  left_join(need_traits) %>% 
+  relocate(c(taxa, svspp, NOAA_label), .before = family) %>%
+  select(-taxa)
+
+
+
+final_trait_db <- trait_db %>% 
+  left_join(species_df %>% select(svspp, NOAA_label, species)) %>%
+  relocate(c(svspp, NOAA_label), .before = family) %>%
+  bind_rows(needed_traits) 
+
 
 write.csv(trait_db, "Data/Derived/trait_database.csv")
 

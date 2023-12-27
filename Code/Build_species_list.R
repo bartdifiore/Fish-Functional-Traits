@@ -1,3 +1,9 @@
+# Libraries
+
+library(tidyverse)
+library(rfishbase)
+
+
 # Build out the species list
 
 df <- read.csv("Data/NMFS_trawl/NMFS_survdat_gmri_tidy.csv") # Trawl survey data...
@@ -29,18 +35,17 @@ taxonomy <- load_taxa() %>%
   select(-spec_code)
 
 
-
 species_list2 <- species_list %>% 
   filter(!Sciname %in% species_to_remove) %>%
-  separate(Sciname, into = c("unclassified", "junk"), sep = " ") %>%
-  select(-junk) %>%
+  separate(Sciname, into = c("unclassified", "junk"), sep = " ", remove = F) %>%
   mutate(unclassified = ifelse(unclassified == "Paralepidae", "Paralepididae", unclassified)) %>% # One of the genera was spelt incorrectly in the dataset. 
   left_join(taxonomy, join_by(validated_species == species))
 
 
 still_not_validated <- species_list2 %>% filter(is.na(validated_species) == T) %>%
-  select(unclassified)
-still_not_validated <- as.vector(still_not_validated$unclassified)
+  select(Sciname, svspp)
+still_not_validated_Sciname <- as.vector(still_not_validated$Sciname)
+still_not_validated_svspp <- as.vector(still_not_validated$svspp)
 
 
 hellish <- function(name){
@@ -63,19 +68,23 @@ hellish <- function(name){
 }
 
 out <- list()
-for(i in 1:length(still_not_validated)){
-  out[[i]] <- hellish(still_not_validated[i])
+for(i in 1:length(still_not_validated_unclassified)){
+  out[[i]] <- hellish(still_not_validated_unclassified[i])
 }
 
 formerge <- do.call(rbind, out) %>%
-  mutate(unclassified = still_not_validated) %>%
-  left_join(species_list, join_by(unclassified == Sciname)) %>%
-  select(svspp, sciname, unclassified, validated_species, genus, subfamily, family, order, class, super_class)
+  mutate(Sciname = still_not_validated_Sciname, 
+         svspp = still_not_validated_svspp, 
+         validated_species = NA) %>%
+  select(svspp, Sciname, validated_species, genus, subfamily, family, order, class, super_class) %>%
+  drop_na(super_class) # Dump the species that aren't fish
   
 
-species_list2 %>%
+final_list <- species_list2 %>%
   drop_na(validated_species) %>%
-  bind_rows(formerge) %>% V
+  select(-c(sciname, unclassified, junk)) %>%
+  bind_rows(formerge) %>%
+  rename(NOAA_label = Sciname)
 
 
-write.csv(species_df, "Data/Derived/species_dataframe.csv", row.names = F, quote = F)
+write.csv(final_list, "Data/Derived/species_dataframe.csv", row.names = F, quote = F)
