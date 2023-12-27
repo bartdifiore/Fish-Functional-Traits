@@ -1,0 +1,13 @@
+
+Trait database methods
+
+
+1. Scraped the FishBase database for traits for each of the species in the trawl survey dataset
+2. Gap-filling: 
+	a) Compare target species list with Beukoff et al. 2019 data set. 
+		- Fill gaps using Beukoff et al. 2019 data set. 
+	b) Compare target species list with Thorson et al. 2023 (FishLife) 
+		- Fill remaining gaps using Thorson et al. 2023
+3. Extract temperature preference zones from Burrows et al. 2019
+	- use established species distribution maps to estimate temperature preferences for remaining fish? 
+4. Other traits that can be scraped from the SOE reports? 
