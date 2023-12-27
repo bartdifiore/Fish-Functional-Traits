@@ -43,9 +43,10 @@ species_list2 <- species_list %>%
 
 
 still_not_validated <- species_list2 %>% filter(is.na(validated_species) == T) %>%
-  select(Sciname, svspp)
+  select(Sciname, svspp, unclassified)
 still_not_validated_Sciname <- as.vector(still_not_validated$Sciname)
 still_not_validated_svspp <- as.vector(still_not_validated$svspp)
+still_not_validated_unclassified <- as.vector(still_not_validated$unclassified)
 
 
 hellish <- function(name){
@@ -87,4 +88,4 @@ final_list <- species_list2 %>%
   rename(NOAA_label = Sciname)
 
 
-write.csv(final_list, "Data/Derived/species_dataframe.csv", row.names = F, quote = F)
+write.csv(final_list, "Data/Derived/species_dataframe.csv")

@@ -1,405 +1,405 @@
-svspp,NOAA_label,validated_species,genus,subfamily,family,order,class,super_class
-1,Myxine glutinosa,Myxine glutinosa,Myxine,Myxininae,Myxinidae,Myxiniformes,Myxini,Agnatha
-2,Petromyzon marinus,Petromyzon marinus,Petromyzon,Petromyzontinae,Petromyzontidae,Petromyzontiformes,Petromyzonti,Agnatha
-3,Carcharhinus obscurus,Carcharhinus obscurus,Carcharhinus,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-4,Dasyatis centroura,Bathytoshia centroura,Bathytoshia,Dasyatinae,Dasyatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-6,Cetorhinus maximus,Cetorhinus maximus,Cetorhinus,NA,Cetorhinidae,Lamniformes,Elasmobranchii,Chondrichthyes
-7,Centroscyllium fabricii,Centroscyllium fabricii,Centroscyllium,NA,Etmopteridae,Squaliformes,Elasmobranchii,Chondrichthyes
-8,Etmopterus princeps,Etmopterus princeps,Etmopterus,NA,Etmopteridae,Squaliformes,Elasmobranchii,Chondrichthyes
-9,Carcharhinus plumbeus,Carcharhinus plumbeus,Carcharhinus,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-12,Carcharias taurus,Carcharias taurus,Carcharias,NA,Carchariidae,Lamniformes,Elasmobranchii,Chondrichthyes
-13,Mustelus canis,Mustelus canis,Mustelus,Triakinae,Triakidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-14,Scyliorhinus retifer,Scyliorhinus retifer,Scyliorhinus,Scyliorhininae,Scyliorhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-15,Squalus acanthias,Squalus acanthias,Squalus,NA,Squalidae,Squaliformes,Elasmobranchii,Chondrichthyes
-16,Squatina dumeril,Squatina dumeril,Squatina,NA,Squatinidae,Squatiniformes,Elasmobranchii,Chondrichthyes
-18,Dasyatis say,Hypanus say,Hypanus,Dasyatinae,Dasyatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-19,Myliobatis freminvillei,Myliobatis freminvillei,Myliobatis,NA,Myliobatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-21,Torpedo nobiliana,Tetronarce nobiliana,Tetronarce,NA,Torpedinidae,Torpediniformes,Elasmobranchii,Chondrichthyes
-22,Dipturus laevis,Dipturus laevis,Dipturus,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-23,Leucoraja ocellata,Leucoraja ocellata,Leucoraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-24,Raja eglanteria,Rostroraja eglanteria,Rostroraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-25,Leucoraja garmani,Leucoraja garmani,Leucoraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-26,Leucoraja erinacea,Leucoraja erinaceus,Leucoraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-27,Malacoraja senta,Malacoraja senta,Malacoraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-28,Amblyraja radiata,Amblyraja radiata,Amblyraja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-29,Dasyatis americana,Hypanus americanus,Hypanus,Dasyatinae,Dasyatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-31,Etrumeus teres,Etrumeus sadina,Etrumeus,NA,Dussumieriidae,Clupeiformes,Teleostei,Osteichthyes
-32,Clupea harengus,Clupea harengus,Clupea,NA,Clupeidae,Clupeiformes,Teleostei,Osteichthyes
-33,Alosa pseudoharengus,Alosa pseudoharengus,Alosa,NA,Alosidae,Clupeiformes,Teleostei,Osteichthyes
-34,Alosa aestivalis,Alosa aestivalis,Alosa,NA,Alosidae,Clupeiformes,Teleostei,Osteichthyes
-35,Alosa sapidissima,Alosa sapidissima,Alosa,NA,Alosidae,Clupeiformes,Teleostei,Osteichthyes
-36,Brevoortia tyrannus,Brevoortia tyrannus,Brevoortia,NA,Alosidae,Clupeiformes,Teleostei,Osteichthyes
-37,Alosa mediocris,Alosa mediocris,Alosa,NA,Alosidae,Clupeiformes,Teleostei,Osteichthyes
-38,Mallotus villosus,Mallotus villosus,Mallotus,NA,Osmeridae,Osmeriformes,Teleostei,Osteichthyes
-43,Anchoa mitchilli,Anchoa mitchilli,Anchoa,Engraulinae,Engraulidae,Clupeiformes,Teleostei,Osteichthyes
-44,Anchoa hepsetus,Anchoa hepsetus,Anchoa,Engraulinae,Engraulidae,Clupeiformes,Teleostei,Osteichthyes
-45,Osmerus mordax,Osmerus mordax,Osmerus,NA,Osmeridae,Osmeriformes,Teleostei,Osteichthyes
-46,Argentina silus,Argentina silus,Argentina,NA,Argentinidae,Argentiniformes,Teleostei,Osteichthyes
-53,Myctophum humboldti,Myctophum punctatum,Myctophum,Myctophinae,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-54,Ceratoscopelus maderensis,Ceratoscopelus maderensis,Ceratoscopelus,Lampanyctinae,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-57,Hygophum taaningi,Hygophum taaningi,Hygophum,Myctophinae,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-63,Conger oceanicus,Conger oceanicus,Conger,Congrinae,Congridae,Anguilliformes,Teleostei,Osteichthyes
-64,Simenchelys parasiticus,Simenchelys parasitica,Simenchelys,Simenchelyinae,Synaphobranchidae,Anguilliformes,Teleostei,Osteichthyes
-65,Ophichthus cruentifer,Ophichthus cruentifer,Ophichthus,Ophichthinae,Ophichthidae,Anguilliformes,Teleostei,Osteichthyes
-66,Hyporhamphus unifasciatus,Hyporhamphus unifasciatus,Hyporhamphus,NA,Hemiramphidae,Beloniformes,Teleostei,Osteichthyes
-67,Nemichthys scolopaceus,Nemichthys scolopaceus,Nemichthys,NA,Nemichthyidae,Anguilliformes,Teleostei,Osteichthyes
-68,Ablennes hians,Ablennes hians,Ablennes,NA,Belonidae,Beloniformes,Teleostei,Osteichthyes
-69,Merluccius albidus,Merluccius albidus,Merluccius,NA,Merlucciidae,Gadiformes,Teleostei,Osteichthyes
-70,Gadella imberbis,Gadella imberbis,Gadella,NA,Moridae,Gadiformes,Teleostei,Osteichthyes
-72,Merluccius bilinearis,Merluccius bilinearis,Merluccius,NA,Merlucciidae,Gadiformes,Teleostei,Osteichthyes
-73,Gadus morhua,Gadus morhua,Gadus,NA,Gadidae,Gadiformes,Teleostei,Osteichthyes
-74,Melanogrammus aeglefinus,Melanogrammus aeglefinus,Melanogrammus,NA,Gadidae,Gadiformes,Teleostei,Osteichthyes
-75,Pollachius virens,Pollachius virens,Pollachius,NA,Gadidae,Gadiformes,Teleostei,Osteichthyes
-76,Urophycis tenuis,Urophycis tenuis,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-77,Urophycis chuss,Urophycis chuss,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-78,Urophycis regia,Urophycis regia,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-79,Urophycis chesteri,Phycis chesteri,Phycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-81,Antimora rostrata,Antimora rostrata,Antimora,NA,Moridae,Gadiformes,Teleostei,Osteichthyes
-82,Physiculus fulvus,Physiculus fulvus,Physiculus,NA,Moridae,Gadiformes,Teleostei,Osteichthyes
-83,Enchelyopus cimbrius,Enchelyopus cimbrius,Enchelyopus,NA,Gaidropsaridae,Gadiformes,Teleostei,Osteichthyes
-84,Brosme brosme,Brosme brosme,Brosme,NA,Lotidae,Gadiformes,Teleostei,Osteichthyes
-85,Gaidropsarus ensis,Gaidropsarus ensis,Gaidropsarus,NA,Gaidropsaridae,Gadiformes,Teleostei,Osteichthyes
-91,Nezumia bairdi,Nezumia bairdii,Nezumia,NA,Macrouridae,Gadiformes,Teleostei,Osteichthyes
-92,Macrourus berglax,Macrourus berglax,Macrourus,NA,Macrouridae,Gadiformes,Teleostei,Osteichthyes
-93,Coelorhynchus carminatus,Coelorinchus caelorhincus,Coelorinchus,NA,Macrouridae,Gadiformes,Teleostei,Osteichthyes
-98,Poecilopsetta beani,Poecilopsetta beanii,Poecilopsetta,NA,Poecilopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-99,Reinhardtius hippoglossoides,Reinhardtius hippoglossoides,Reinhardtius,Hippoglossinae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-101,Hippoglossus hippoglossus,Hippoglossus hippoglossus,Hippoglossus,Hippoglossinae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-102,Hippoglossoides platessoides,Hippoglossoides platessoides,Hippoglossoides,Pleuronectinae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-103,Paralichthys dentatus,Paralichthys dentatus,Paralichthys,NA,Paralichthyidae,Pleuronectiformes,Teleostei,Osteichthyes
-104,Paralichthys oblongus,Hippoglossina oblonga,Hippoglossina,NA,Paralichthyidae,Pleuronectiformes,Teleostei,Osteichthyes
-105,Limanda ferruginea,Myzopsetta ferruginea,Myzopsetta,Pleuronectinae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-106,Pseudopleuronectes americanus,Pseudopleuronectes americanus,Pseudopleuronectes,Pleuronectinae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-107,Glyptocephalus cynoglossus,Glyptocephalus cynoglossus,Glyptocephalus,Microstominae,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-108,Scophthalmus aquosus,Scophthalmus aquosus,Scophthalmus,NA,Scophthalmidae,Pleuronectiformes,Teleostei,Osteichthyes
-109,Citharichthys arctifrons,Citharichthys arctifrons,Citharichthys,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-110,Monolene sessilicauda,Monolene sessilicauda,Monolene,NA,Bothidae,Pleuronectiformes,Teleostei,Osteichthyes
-111,Macrorhamphosus scolopax,Macroramphosus scolopax,Macroramphosus,Macroramphosinae,Centriscidae,Syngnathiformes,Teleostei,Osteichthyes
-112,Zenopsis conchifera,Zenopsis conchifer,Zenopsis,NA,Zeidae,Zeiformes,Teleostei,Osteichthyes
-113,Menidia menidia,Menidia menidia,Menidia,Menidiinae,Atherinopsidae,Atheriniformes,Teleostei,Osteichthyes
-114,Synagrops bellus,Synagrops bellus,Synagrops,NA,Synagropidae,Acropomatiformes,Teleostei,Osteichthyes
-115,Gasterosteus aculeatus,Gasterosteus aculeatus,Gasterosteus,NA,Gasterosteidae,Perciformes/Gasterosteoidei,Teleostei,Osteichthyes
-116,Syngnathus fuscus,Syngnathus fuscus,Syngnathus,Syngnathinae,Syngnathidae,Syngnathiformes,Teleostei,Osteichthyes
-117,Etropus microstomus,Etropus microstomus,Etropus,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-118,Trinectes maculatus,Trinectes maculatus,Trinectes,NA,Achiridae,Pleuronectiformes,Teleostei,Osteichthyes
-120,Fistularia tabacaria,Fistularia tabacaria,Fistularia,NA,Fistulariidae,Syngnathiformes,Teleostei,Osteichthyes
-121,Scomber scombrus,Scomber scombrus,Scomber,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-123,Sarda sarda,Sarda sarda,Sarda,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-124,Scomber japonicus,Scomber japonicus,Scomber,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-126,Trichiurus lepturus,Trichiurus lepturus,Trichiurus,Trichiurinae,Trichiuridae,Scombriformes,Teleostei,Osteichthyes
-127,Promethichthys prometheus,Promethichthys prometheus,Promethichthys,NA,Gempylidae,Scombriformes,Teleostei,Osteichthyes
-129,Caranx crysos,Caranx crysos,Caranx,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-131,Peprilus triacanthus,Peprilus triacanthus,Peprilus,NA,Stromateidae,Scombriformes,Teleostei,Osteichthyes
-132,Selene setapinnis,Selene setapinnis,Selene,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-133,Selene vomer,Selene vomer,Selene,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-134,Priacanthus arenatus,Priacanthus arenatus,Priacanthus,NA,Priacanthidae,Eupercaria/misc,Teleostei,Osteichthyes
-135,Pomatomus saltatrix,Pomatomus saltatrix,Pomatomus,NA,Pomatomidae,Scombriformes,Teleostei,Osteichthyes
-136,Micropogonias undulatus,Micropogonias undulatus,Micropogonias,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-137,Synagrops spinosus,Parascombrops spinosus,Parascombrops,NA,Synagropidae,Acropomatiformes,Teleostei,Osteichthyes
-139,Morone saxatilis,Morone saxatilis,Morone,NA,Moronidae,Eupercaria/misc,Teleostei,Osteichthyes
-141,Centropristis striata,Centropristis striata,Centropristis,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-142,Orthopristis chrysoptera,Orthopristis chrysoptera,Orthopristis,Haemulinae,Haemulidae,Eupercaria/misc,Teleostei,Osteichthyes
-143,Stenotomus chrysops,Stenotomus chrysops,Stenotomus,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-144,Epigonus pandionis,Epigonus pandionis,Epigonus,NA,Epigonidae,Acropomatiformes,Teleostei,Osteichthyes
-145,Cynoscion regalis,Cynoscion regalis,Cynoscion,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-146,Menticirrhus saxatilis,Menticirrhus saxatilis,Menticirrhus,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-148,Bairdiella chrysoura,Bairdiella chrysoura,Bairdiella,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-149,Leiostomus xanthurus,Leiostomus xanthurus,Leiostomus,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-150,Howella sherborni,Howella sherborni,Howella,NA,Howellidae,Acropomatiformes,Teleostei,Osteichthyes
-151,Lopholatilus chamaeleonticeps,Lopholatilus chamaeleonticeps,Lopholatilus,NA,Latilidae,Eupercaria/misc,Teleostei,Osteichthyes
-154,Pontinus longispinis,Pontinus longispinis,Pontinus,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-155,Sebastes fasciatus,Sebastes fasciatus,Sebastes,Sebastinae,Sebastidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-156,Helicolenus dactylopterus,Helicolenus dactylopterus,Helicolenus,Sebastinae,Sebastidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-158,Antigonia capros,Antigonia capros,Antigonia,NA,Antigoniidae,Acanthuriformes,Teleostei,Osteichthyes
-161,Triglops murrayi,Triglops murrayi,Triglops,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-162,Myoxocephalus scorpius,Myoxocephalus scorpius,Myoxocephalus,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-163,Myoxocephalus octodecemspinosus,Myoxocephalus octodecemspinosus,Myoxocephalus,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-164,Hemitripterus americanus,Hemitripterus americanus,Hemitripterus,Hemitripterinae,Agonidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-165,Aspidophoroides monopterygius,Aspidophoroides monopterygius,Aspidophoroides,Anoplagoninae,Agonidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-166,Myoxocephalus aenaeus,Myoxocephalus aenaeus,Myoxocephalus,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-167,Liparis inquilinus,Liparis inquilinus,Liparis,NA,Liparidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-168,Cyclopterus lumpus,Cyclopterus lumpus,Cyclopterus,Cyclopterinae,Cyclopteridae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-169,Eumicrotremus spinosus,Eumicrotremus spinosus,Eumicrotremus,Eumicrotreminae,Cyclopteridae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-170,Liparis atlanticus,Liparis atlanticus,Liparis,NA,Liparidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-171,Prionotus carolinus,Prionotus carolinus,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-172,Prionotus evolans,Prionotus evolans,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-173,Peristedion miniatum,Peristedion miniatum,Peristedion,NA,Peristediidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-175,Dactylopterus volitans,Dactylopterus volitans,Dactylopterus,NA,Dactylopteridae,Dactylopteriformes,Teleostei,Osteichthyes
-176,Tautogolabrus adspersus,Tautogolabrus adspersus,Tautogolabrus,NA,Labridae,Eupercaria/misc,Teleostei,Osteichthyes
-177,Tautoga onitis,Tautoga onitis,Tautoga,NA,Labridae,Eupercaria/misc,Teleostei,Osteichthyes
-179,Astroscopus guttatus,Astroscopus guttatus,Astroscopus,NA,Uranoscopidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-180,Pholis gunnellus,Pholis gunnellus,Pholis,Pholinae,Pholidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-181,Ammodytes dubius,Ammodytes dubius,Ammodytes,NA,Ammodytidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-182,Lumpenus lumpretaeformis,Lumpenus lampretaeformis,Lumpenus,NA,Lumpenidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-183,Lumpenus maculatus,Leptoclinus maculatus,Leptoclinus,NA,Lumpenidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-184,Ulvaria subbifurcata,Ulvaria subbifurcata,Ulvaria,Stichaeinae,Stichaeidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-185,Opsanus tau,Opsanus tau,Opsanus,Batrachoidinae,Batrachoididae,Batrachoidiformes,Teleostei,Osteichthyes
-186,Otophidium omostigmum,Otophidium omostigma,Otophidium,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-187,Mullus auratus,Mullus auratus,Mullus,NA,Mullidae,Mulliformes,Teleostei,Osteichthyes
-188,Ophidion marginatum,Ophidion marginatum,Ophidion,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-190,Lycenchelys verrilli,Lycenchelys verrillii,Lycenchelys,Lycodinae,Zoarcidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-191,Cryptacanthodes maculatus,Cryptacanthodes maculatus,Cryptacanthodes,NA,Cryptacanthodidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-192,Anarhichas lupus,Anarhichas lupus,Anarhichas,NA,Anarhichadidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-193,Macrozoarces americanus,Zoarces americanus,Zoarces,Zoarcinae,Zoarcidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-194,Lepophidium profundorum,Lepophidium profundorum,Lepophidium,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-195,Lagocephalus laevigatus,Lagocephalus laevigatus,Lagocephalus,Tetraodontinae,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-196,Sphoeroides maculatus,Sphoeroides maculatus,Sphoeroides,Tetraodontinae,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-197,Lophius americanus,Lophius americanus,Lophius,NA,Lophiidae,Lophiiformes,Teleostei,Osteichthyes
-198,Chilomycterus schoepfi,Chilomycterus schoepfii,Chilomycterus,NA,Diodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-199,Dibranchus atlanticus,Dibranchus atlanticus,Dibranchus,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-201,Monacanthus hispidus,Stephanolepis hispida,Stephanolepis,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-202,Balistes capriscus,Balistes capriscus,Balistes,NA,Balistidae,Tetraodontiformes,Teleostei,Osteichthyes
-203,Seriola dumerili,Seriola dumerili,Seriola,Naucratinae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-204,Seriola zonata,Seriola zonata,Seriola,Naucratinae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-205,Scomberesox saurus,Scomberesox saurus,Scomberesox,NA,Scomberesocidae,Beloniformes,Teleostei,Osteichthyes
-206,Ogcocephalus corniger,Ogcocephalus corniger,Ogcocephalus,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-207,Hyperoglyphe perciformis,Hyperoglyphe perciformis,Hyperoglyphe,NA,Centrolophidae,Scombriformes,Teleostei,Osteichthyes
-208,Decapterus macarellus,Decapterus macarellus,Decapterus,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-209,Selar crumenophthalmus,Selar crumenophthalmus,Selar,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-210,Diaphus dumerili,Diaphus dumerilii,Diaphus,Diaphinae,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-211,Decapterus punctatus,Decapterus punctatus,Decapterus,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-212,Trachurus lathami,Trachurus lathami,Trachurus,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-213,Ariomma bondi,Ariomma bondi,Ariomma,NA,Ariommatidae,Scombriformes,Teleostei,Osteichthyes
-227,Nesiarchus nasutus,Nesiarchus nasutus,Nesiarchus,NA,Gempylidae,Scombriformes,Teleostei,Osteichthyes
-228,Stomias boa,Stomias boa,Stomias,Stomiinae,Stomiidae,Stomiiformes,Teleostei,Osteichthyes
-229,Maurolicus weitzmani,Maurolicus weitzmani,Maurolicus,Maurolicinae,Sternoptychidae,Stomiiformes,Teleostei,Osteichthyes
-232,Chlorophthalmus agassizi,Chlorophthalmus agassizi,Chlorophthalmus,NA,Chlorophthalmidae,Aulopiformes,Teleostei,Osteichthyes
-234,Gonostoma atlanticum,Gonostoma atlanticum,Gonostoma,NA,Gonostomatidae,Stomiiformes,Teleostei,Osteichthyes
-235,Gonostoma elongatum,Sigmops elongatus,Sigmops,NA,Gonostomatidae,Stomiiformes,Teleostei,Osteichthyes
-237,Polymetme thaeocoryla,Polymetme thaeocoryla,Polymetme,NA,Phosichthyidae,Stomiiformes,Teleostei,Osteichthyes
-239,Benthodesmus simonyi,Benthodesmus simonyi,Benthodesmus,Aphanopodinae,Trichiuridae,Scombriformes,Teleostei,Osteichthyes
-240,Chauliodus sloani,Chauliodus sloani,Chauliodus,Chauliodontinae,Stomiidae,Stomiiformes,Teleostei,Osteichthyes
-241,Chauliodus danae,Chauliodus danae,Chauliodus,Chauliodontinae,Stomiidae,Stomiiformes,Teleostei,Osteichthyes
-242,Parasudis truculenta,Parasudis truculenta,Parasudis,NA,Chlorophthalmidae,Aulopiformes,Teleostei,Osteichthyes
-245,Paralepis coregonoides,Paralepis coregonoides,Paralepis,NA,Paralepididae,Aulopiformes,Teleostei,Osteichthyes
-246,Arctozenus rissoi,Arctozenus risso,Arctozenus,NA,Paralepididae,Aulopiformes,Teleostei,Osteichthyes
-250,Argyropelecus aculeatus,Argyropelecus aculeatus,Argyropelecus,Sternoptychinae,Sternoptychidae,Stomiiformes,Teleostei,Osteichthyes
-251,Polyipnus clarus,Polyipnus clarus,Polyipnus,Sternoptychinae,Sternoptychidae,Stomiiformes,Teleostei,Osteichthyes
-260,Careproctus ranula,Careproctus ranula,Careproctus,NA,Liparidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-261,Hoplostethus mediterraneus,Hoplostethus mediterraneus,Hoplostethus,NA,Trachichthyidae,Trachichthyiformes,Teleostei,Osteichthyes
-262,Melanostigma atlanticum,Melanostigma atlanticum,Melanostigma,Gymnelinae,Zoarcidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-263,Polymixia lowei,Polymixia lowei,Polymixia,NA,Polymixiidae,Polymixiiformes,Teleostei,Osteichthyes
-264,Polymixia nobilis,Polymixia nobilis,Polymixia,NA,Polymixiidae,Polymixiiformes,Teleostei,Osteichthyes
-265,Mola mola,Mola mola,Mola,NA,Molidae,Tetraodontiformes,Teleostei,Osteichthyes
-266,Hoplostethus occidentalis,Hoplostethus occidentalis,Hoplostethus,NA,Trachichthyidae,Trachichthyiformes,Teleostei,Osteichthyes
-268,Gephyroberyx darwini,Gephyroberyx darwinii,Gephyroberyx,NA,Trachichthyidae,Trachichthyiformes,Teleostei,Osteichthyes
-270,Rhinoptera bonasus,Rhinoptera bonasus,Rhinoptera,NA,Rhinopteridae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-271,Aetobatis narinari,Aetobatus narinari,Aetobatus,NA,Aetobatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-280,Malacocephalus occidentalis,Malacocephalus occidentalis,Malacocephalus,NA,Macrouridae,Gadiformes,Teleostei,Osteichthyes
-352,Isurus oxyrinchus,Isurus oxyrinchus,Isurus,NA,Lamnidae,Lamniformes,Elasmobranchii,Chondrichthyes
-353,Lamna nasus,Lamna nasus,Lamna,NA,Lamnidae,Lamniformes,Elasmobranchii,Chondrichthyes
-355,Carcharhinus falciformis,Carcharhinus falciformis,Carcharhinus,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-360,Rhizoprionodon terraenovae,Rhizoprionodon terraenovae,Rhizoprionodon,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-362,Sphyrna lewini,Sphyrna lewini,Sphyrna,NA,Sphyrnidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-375,Gymnura altavela,Gymnura altavela,Gymnura,NA,Gymnuridae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-376,Gymnura micrura,Gymnura micrura,Gymnura,NA,Gymnuridae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-378,Myliobatis goodei,Myliobatis goodei,Myliobatis,NA,Myliobatidae,Myliobatiformes,Elasmobranchii,Chondrichthyes
-380,Acipenser oxyrhynchus,Acipenser oxyrinchus,Acipenser,Acipenserinae,Acipenseridae,Acipenseriformes,Chondrostei,Osteichthyes
-384,Anguilla rostrata,Anguilla rostrata,Anguilla,NA,Anguillidae,Anguilliformes,Teleostei,Osteichthyes
-396,Ophichthus puncticeps,Ophichthus puncticeps,Ophichthus,Ophichthinae,Ophichthidae,Anguilliformes,Teleostei,Osteichthyes
-428,Opisthonema oglinum,Opisthonema oglinum,Opisthonema,NA,Dorosomatidae,Clupeiformes,Teleostei,Osteichthyes
-429,Sardinella aurita,Sardinella aurita,Sardinella,NA,Dorosomatidae,Clupeiformes,Teleostei,Osteichthyes
-434,Saurida normani,Saurida normani,Saurida,Harpadontinae,Synodontidae,Aulopiformes,Teleostei,Osteichthyes
-435,Synodus foetens,Synodus foetens,Synodus,Synodontinae,Synodontidae,Aulopiformes,Teleostei,Osteichthyes
-436,Synodus intermedius,Synodus intermedius,Synodus,Synodontinae,Synodontidae,Aulopiformes,Teleostei,Osteichthyes
-437,Synodus poeyi,Synodus poeyi,Synodus,Synodontinae,Synodontidae,Aulopiformes,Teleostei,Osteichthyes
-439,Trachinocephalus myops,Trachinocephalus myops,Trachinocephalus,Synodontinae,Synodontidae,Aulopiformes,Teleostei,Osteichthyes
-440,Alepisaurus ferox,Alepisaurus ferox,Alepisaurus,NA,Alepisauridae,Aulopiformes,Teleostei,Osteichthyes
-444,Porichthys plectrodon,Porichthys plectrodon,Porichthys,Porichthyinae,Batrachoididae,Batrachoidiformes,Teleostei,Osteichthyes
-446,Antennarius radiosus,Fowlerichthys radiosus,Fowlerichthys,NA,Antennariidae,Lophiiformes,Teleostei,Osteichthyes
-449,Halieutichthys aculeatus,Halieutichthys aculeatus,Halieutichthys,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-450,Ogcocephalus nasutus,Ogcocephalus nasutus,Ogcocephalus,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-451,Ogcocephalus parvus,Ogcocephalus parvus,Ogcocephalus,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-454,Urophycis earllii,Urophycis earllii,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-455,Urophycis floridana,Urophycis floridana,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-458,Ophidion grayi,Ophidion grayi,Ophidion,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-459,Ophidion holbrooki,Ophidion holbrookii,Ophidion,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-462,Carapus bermudensis,Carapus bermudensis,Carapus,Carapinae,Carapidae,Ophidiiformes,Teleostei,Osteichthyes
-463,Cypselurus cyanopterus,Cheilopogon cyanopterus,Cheilopogon,NA,Exocoetidae,Beloniformes,Teleostei,Osteichthyes
-484,Plectrypops retrospinis,Plectrypops retrospinis,Plectrypops,Myripristinae,Holocentridae,Holocentriformes,Teleostei,Osteichthyes
-486,Antigonia combatia,Antigonia combatia,Antigonia,NA,Antigoniidae,Acanthuriformes,Teleostei,Osteichthyes
-488,Apeltes quadracus,Apeltes quadracus,Apeltes,NA,Gasterosteidae,Perciformes/Gasterosteoidei,Teleostei,Osteichthyes
-489,Fistularia petimba,Fistularia petimba,Fistularia,NA,Fistulariidae,Syngnathiformes,Teleostei,Osteichthyes
-492,Hippocampus erectus,Hippocampus erectus,Hippocampus,Syngnathinae,Syngnathidae,Syngnathiformes,Teleostei,Osteichthyes
-500,Anthias nicholsi,Anthias nicholsi,Anthias,NA,Anthiadidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-526,Centropristis ocyurus,Centropristis ocyurus,Centropristis,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-527,Centropristis philadelphica,Centropristis philadelphica,Centropristis,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-529,Diplectrum bivittatum,Diplectrum bivittatum,Diplectrum,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-530,Diplectrum formosum,Diplectrum formosum,Diplectrum,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-536,Epinephelus nigritus,Hyporthodus nigritus,Hyporthodus,NA,Epinephelidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-537,Epinephelus niveatus,Hyporthodus niveatus,Hyporthodus,NA,Epinephelidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-539,Hemanthias vivanus,Baldwinella vivanus,Baldwinella,NA,Anthiadidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-541,Mycteroperca microlepis,Mycteroperca microlepis,Mycteroperca,NA,Epinephelidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-546,Hemanthias aureorubens,Baldwinella aureorubens,Baldwinella,NA,Anthiadidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-549,Serranus atrobranchus,Serranus atrobranchus,Serranus,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-552,Serranus phoebe,Serranus phoebe,Serranus,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-556,Priacanthus cruentatus,Heteropriacanthus cruentatus,Heteropriacanthus,NA,Priacanthidae,Eupercaria/misc,Teleostei,Osteichthyes
-557,Pristigenys alta,Pristigenys alta,Pristigenys,NA,Priacanthidae,Eupercaria/misc,Teleostei,Osteichthyes
-559,Apogon pseudomaculatus,Apogon pseudomaculatus,Apogon,Apogoninae,Apogonidae,Kurtiformes,Teleostei,Osteichthyes
-562,Caulolatilus cyanops,Caulolatilus cyanops,Caulolatilus,NA,Latilidae,Eupercaria/misc,Teleostei,Osteichthyes
-563,Rachycentron canadum,Rachycentron canadum,Rachycentron,NA,Rachycentridae,Carangiformes,Teleostei,Osteichthyes
-564,Echeneis naucrates,Echeneis naucrates,Echeneis,NA,Echeneidae,Carangiformes,Teleostei,Osteichthyes
-567,Remora remora,Remora remora,Remora,NA,Echeneidae,Carangiformes,Teleostei,Osteichthyes
-568,Alectis ciliaris,Alectis ciliaris,Alectis,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-569,Caranx bartholomaei,Caranx bartholomaei,Caranx,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-571,Caranx latus,Caranx latus,Caranx,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-573,Chloroscombrus chrysurus,Chloroscombrus chrysurus,Chloroscombrus,Caranginae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-576,Naucrates ductor,Naucrates ductor,Naucrates,Naucratinae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-578,Seriola rivoliana,Seriola rivoliana,Seriola,Naucratinae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-584,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,NA,Coryphaenidae,Carangiformes,Teleostei,Osteichthyes
-592,Lutjanus synagris,Lutjanus synagris,Lutjanus,Lutjaninae,Lutjanidae,Eupercaria/misc,Teleostei,Osteichthyes
-595,Pristipomoides aquilonaris,Pristipomoides aquilonaris,Pristipomoides,Etelinae,Lutjanidae,Eupercaria/misc,Teleostei,Osteichthyes
-596,Rhomboplites aurorubens,Rhomboplites aurorubens,Rhomboplites,Lutjaninae,Lutjanidae,Eupercaria/misc,Teleostei,Osteichthyes
-599,Eucinostomus gula,Eucinostomus gula,Eucinostomus,NA,Gerreidae,Eupercaria/misc,Teleostei,Osteichthyes
-601,Etmopterus gracilispinis,Etmopterus gracilispinis,Etmopterus,NA,Etmopteridae,Squaliformes,Elasmobranchii,Chondrichthyes
-616,Cookeolus japonicus,Cookeolus japonicus,Cookeolus,NA,Priacanthidae,Eupercaria/misc,Teleostei,Osteichthyes
-617,Xenolepidichthys dalgleishi,Xenolepidichthys dalgleishi,Xenolepidichthys,Grammicolepidinae,Grammicolepididae,Zeiformes,Teleostei,Osteichthyes
-621,Caulolatilus microps,Caulolatilus microps,Caulolatilus,NA,Latilidae,Eupercaria/misc,Teleostei,Osteichthyes
-622,Caulolatilus chrysops,Caulolatilus chrysops,Caulolatilus,NA,Latilidae,Eupercaria/misc,Teleostei,Osteichthyes
-631,Archosargus probatocephalus,Archosargus probatocephalus,Archosargus,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-634,Calamus leucosteus,Calamus leucosteus,Calamus,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-640,Lagodon rhomboides,Lagodon rhomboides,Lagodon,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-641,Pagrus sedecim,Pagrus pagrus,Pagrus,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-642,Stenotomus caprinus,Stenotomus caprinus,Stenotomus,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-650,Equetus umbrosus,Pareques umbrosus,Pareques,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-651,Larimus fasciatus,Larimus fasciatus,Larimus,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-652,Menticirrhus americanus,Menticirrhus americanus,Menticirrhus,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-654,Sciaenops ocellatus,Sciaenops ocellatus,Sciaenops,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-656,Pseudupeneus maculatus,Pseudupeneus maculatus,Pseudupeneus,NA,Mullidae,Mulliformes,Teleostei,Osteichthyes
-657,Upeneus parvus,Upeneus parvus,Upeneus,NA,Mullidae,Mulliformes,Teleostei,Osteichthyes
-659,Chaetodipterus faber,Chaetodipterus faber,Chaetodipterus,NA,Ephippidae,Acanthuriformes,Teleostei,Osteichthyes
-662,Chaetodon ocellatus,Chaetodon ocellatus,Chaetodon,NA,Chaetodontidae,Acanthuriformes,Teleostei,Osteichthyes
-677,Halichoeres bivittatus,Halichoeres bivittatus,Halichoeres,Corinae,Labridae,Eupercaria/misc,Teleostei,Osteichthyes
-682,Lachnolaimus maximus,Lachnolaimus maximus,Lachnolaimus,NA,Labridae,Eupercaria/misc,Teleostei,Osteichthyes
-694,Sphyraena borealis,Sphyraena borealis,Sphyraena,NA,Sphyraenidae,Carangaria/misc,Teleostei,Osteichthyes
-698,Bembrops gobioides,Bembrops gobioides,Bembrops,NA,Bembropidae,Perciformes/Bembropoidei,Teleostei,Osteichthyes
-699,Astroscopus y-graecum,Astroscopus ygraecum,Astroscopus,NA,Uranoscopidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-700,Xiphias gladius,Xiphias gladius,Xiphias,NA,Xiphiidae,Carangiformes,Teleostei,Osteichthyes
-702,Auxis thazard,Auxis thazard,Auxis,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-703,Thunnus alalunga,Thunnus alalunga,Thunnus,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-725,Xenocephalus egregius,Xenocephalus egregius,Xenocephalus,NA,Uranoscopidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-726,Kathetostoma albigutta,Kathetostoma albigutta,Kathetostoma,NA,Uranoscopidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-734,Ammodytes americanus,Ammodytes americanus,Ammodytes,NA,Ammodytidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-735,Foetorepus agassizi,Foetorepus agassizii,Foetorepus,NA,Callionymidae,Callionymiformes,Teleostei,Osteichthyes
-738,Gobiosoma bosc,Gobiosoma bosc,Gobiosoma,Gobiinae,Gobiidae,Gobiiformes,Teleostei,Osteichthyes
-744,Scomberomorus cavalla,Scomberomorus cavalla,Scomberomorus,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-745,Scomberomorus maculatus,Scomberomorus maculatus,Scomberomorus,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-748,Ariomma regulus,Ariomma regulus,Ariomma,NA,Ariommatidae,Scombriformes,Teleostei,Osteichthyes
-751,Neomerinthe hemingwayi,Neomerinthe hemingwayi,Neomerinthe,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-752,Pontinus rathbuni,Pontinus rathbuni,Pontinus,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-753,Scorpaena agassizi,Scorpaena agassizii,Scorpaena,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-755,Scorpaena calcarata,Scorpaena calcarata,Scorpaena,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-756,Scorpaena dispar,Scorpaena dispar,Scorpaena,Scorpaeninae,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-760,Bellator brachychir,Bellator brachychir,Bellator,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-762,Bellator militaris,Bellator militaris,Bellator,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-763,Peristedion gracile,Peristedion gracile,Peristedion,NA,Peristediidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-764,Prionotus alatus,Prionotus alatus,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-765,Prionotus ophryas,Prionotus ophryas,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-768,Prionotus rubio,Prionotus rubio,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-769,Prionotus scitulus,Prionotus scitulus,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-770,Prionotus tribulus,Prionotus tribulus,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-775,Ancylopsetta quadrocellata,Ancylopsetta quadrocellata,Ancylopsetta,NA,Paralichthyidae,Pleuronectiformes,Teleostei,Osteichthyes
-780,Citharichthys cornutus,Citharichthys cornutus,Citharichthys,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-781,Citharichthys macrops,Citharichthys macrops,Citharichthys,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-783,Cyclopsetta fimbriata,Cyclopsetta fimbriata,Cyclopsetta,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-785,Etropus crossotus,Etropus crossotus,Etropus,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-786,Etropus rimosus,Etropus rimosus,Etropus,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-788,Paralichthys albigutta,Paralichthys albigutta,Paralichthys,NA,Paralichthyidae,Pleuronectiformes,Teleostei,Osteichthyes
-789,Paralichthys lethostigma,Paralichthys lethostigma,Paralichthys,NA,Paralichthyidae,Pleuronectiformes,Teleostei,Osteichthyes
-793,Syacium papillosum,Syacium papillosum,Syacium,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-796,Gymnachirus melas,Gymnachirus melas,Gymnachirus,NA,Achiridae,Pleuronectiformes,Teleostei,Osteichthyes
-797,Symphurus civitatus,Symphurus civitatum,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-798,Symphurus diomedianus,Symphurus diomedeanus,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-821,Symphurus marginatus,Symphurus marginatus,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-824,Lepidocybium flavobrunneum,Lepidocybium flavobrunneum,Lepidocybium,NA,Gempylidae,Scombriformes,Teleostei,Osteichthyes
-825,Symphurus plagiusa,Symphurus plagiusa,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-826,Symphurus pusillus,Symphurus pusillus,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-827,Symphurus urospilus,Symphurus urospilus,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-829,Parahollardia lineata,Parahollardia lineata,Parahollardia,Hollardiinae,Triacanthodidae,Tetraodontiformes,Teleostei,Osteichthyes
-830,Aluterus heudelotii,Aluterus heudelotii,Aluterus,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-831,Aluterus monoceros,Aluterus monoceros,Aluterus,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-832,Aluterus schoepfi,Aluterus schoepfii,Aluterus,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-833,Aluterus scriptus,Aluterus scriptus,Aluterus,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-836,Monacanthus ciliatus,Monacanthus ciliatus,Monacanthus,NA,Monacanthidae,Tetraodontiformes,Teleostei,Osteichthyes
-838,Lactophrys polygonia,Acanthostracion polygonium,Acanthostracion,NA,Ostraciidae,Tetraodontiformes,Teleostei,Osteichthyes
-843,Sphoeroides dorsalis,Sphoeroides dorsalis,Sphoeroides,Tetraodontinae,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-844,Sphoeroides nephelus,Sphoeroides nephelus,Sphoeroides,Tetraodontinae,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-856,Argentina striata,Argentina striata,Argentina,NA,Argentinidae,Argentiniformes,Teleostei,Osteichthyes
-862,Chaunax stigmaeus,Chaunax stigmaeus,Chaunax,NA,Chaunacidae,Lophiiformes,Teleostei,Osteichthyes
-865,Engraulis eurystole,Engraulis eurystole,Engraulis,Engraulinae,Engraulidae,Clupeiformes,Teleostei,Osteichthyes
-867,Laemonema barbatulum,Laemonema barbatulum,Laemonema,NA,Moridae,Gadiformes,Teleostei,Osteichthyes
-869,Ophidion selenops,Ophidion selenops,Ophidion,Ophidiinae,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-871,Prionotus stearnsi,Prionotus stearnsi,Prionotus,Prionotinae,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-874,Gempylus serpens,Gempylus serpens,Gempylus,NA,Gempylidae,Scombriformes,Teleostei,Osteichthyes
-876,Cubiceps pauciradiatus,Cubiceps pauciradiatus,Cubiceps,NA,Nomeidae,Scombriformes,Teleostei,Osteichthyes
-877,Seriola fasciata,Seriola fasciata,Seriola,Naucratinae,Carangidae,Carangiformes,Teleostei,Osteichthyes
-880,Sphoeroides pachygaster,Sphoeroides pachygaster,Sphoeroides,Tetraodontinae,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-890,Anchoa nasuta,Anchoa lyolepis,Anchoa,Engraulinae,Engraulidae,Clupeiformes,Teleostei,Osteichthyes
-891,Ariomma melanum,Ariomma melana,Ariomma,NA,Ariommatidae,Scombriformes,Teleostei,Osteichthyes
-894,Salmo salar,Salmo salar,Salmo,Salmoninae,Salmonidae,Salmoniformes,Teleostei,Osteichthyes
-897,Lophius gastrophysus,Lophius gastrophysus,Lophius,NA,Lophiidae,Lophiiformes,Teleostei,Osteichthyes
-899,Cyttopsis rosea,Cyttopsis rosea,Cyttopsis,Cyttopsinae,Parazenidae,Zeiformes,Teleostei,Osteichthyes
-926,Alopias superciliosus,Alopias superciliosus,Alopias,NA,Alopiidae,Lamniformes,Elasmobranchii,Chondrichthyes
-931,Carcharhinus brevipinna,Carcharhinus brevipinna,Carcharhinus,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-934,Carcharhinus signatus,Carcharhinus signatus,Carcharhinus,NA,Carcharhinidae,Carcharhiniformes,Elasmobranchii,Chondrichthyes
-938,Sarda orientalis,Sarda orientalis,Sarda,Scombrinae,Scombridae,Scombriformes,Teleostei,Osteichthyes
-5,Rajiformes,NA,NA,NA,NA,Rajiformes,Elasmobranchii,Chondrichthyes
-20,Raja sp,NA,Raja,NA,Rajidae,Rajiformes,Elasmobranchii,Chondrichthyes
-30,Clupeidae,NA,NA,NA,Clupeidae,Clupeiformes,Teleostei,Osteichthyes
-47,Chlorophthalmidae,NA,NA,NA,Chlorophthalmidae,Aulopiformes,Teleostei,Osteichthyes
-56,Myctophidae,NA,NA,NA,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-60,Anguilliformes,NA,NA,NA,NA,Anguilliformes,Teleostei,Osteichthyes
-61,Diaphus sp,NA,Diaphus,Diaphinae,Myctophidae,Myctophiformes,Teleostei,Osteichthyes
-80,Gadidae,NA,NA,NA,Gadidae,Gadiformes,Teleostei,Osteichthyes
-86,Merluccius sp,NA,Merluccius,NA,Merlucciidae,Gadiformes,Teleostei,Osteichthyes
-87,Urophycis sp,NA,Urophycis,NA,Phycidae,Gadiformes,Teleostei,Osteichthyes
-88,Moridae,NA,NA,NA,Moridae,Gadiformes,Teleostei,Osteichthyes
-90,Macrouridae,NA,NA,NA,Macrouridae,Gadiformes,Teleostei,Osteichthyes
-100,Pleuronectiformes,NA,NA,NA,NA,Pleuronectiformes,Teleostei,Osteichthyes
-138,Apogonidae,NA,NA,NA,Apogonidae,Kurtiformes,Teleostei,Osteichthyes
-159,Artediellus sp,NA,Artediellus,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-160,Cottidae,NA,NA,NA,Cottidae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-174,Triglidae,NA,NA,NA,Triglidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-221,Symphurus sp,NA,Symphurus,Symphurinae,Cynoglossidae,Pleuronectiformes,Teleostei,Osteichthyes
-231,Chlorophthalmus sp,NA,Chlorophthalmus,NA,Chlorophthalmidae,Aulopiformes,Teleostei,Osteichthyes
-236,Vinciguerria sp,NA,Vinciguerria,NA,Phosichthyidae,Stomiiformes,Teleostei,Osteichthyes
-248,Stomiidae,NA,NA,NA,Stomiidae,Stomiiformes,Teleostei,Osteichthyes
-249,Cyclopteridae,NA,NA,NA,Cyclopteridae,Perciformes/Cottoidei,Teleostei,Osteichthyes
-252,Sternoptychidae,NA,NA,NA,Sternoptychidae,Stomiiformes,Teleostei,Osteichthyes
-267,Zoarcidae,NA,NA,NA,Zoarcidae,Perciformes/Zoarcoidei,Teleostei,Osteichthyes
-390,Congridae,NA,NA,NA,Congridae,Anguilliformes,Teleostei,Osteichthyes
-399,Echiophis sp,NA,Echiophis,Ophichthinae,Ophichthidae,Anguilliformes,Teleostei,Osteichthyes
-421,Syngnathidae,NA,NA,NA,Syngnathidae,Syngnathiformes,Teleostei,Osteichthyes
-422,Caproidae,NA,NA,NA,Caproidae,Acanthuriformes,Teleostei,Osteichthyes
-423,Atherinidae,NA,NA,NA,Atherinidae,Atheriniformes,Teleostei,Osteichthyes
-425,Ophichthidae,NA,NA,NA,Ophichthidae,Anguilliformes,Teleostei,Osteichthyes
-452,Ogcocephalidae,NA,NA,NA,Ogcocephalidae,Lophiiformes,Teleostei,Osteichthyes
-461,Ophidiidae,NA,NA,NA,Ophidiidae,Ophidiiformes,Teleostei,Osteichthyes
-490,Fistularia sp,NA,Fistularia,NA,Fistulariidae,Syngnathiformes,Teleostei,Osteichthyes
-554,Serranidae,NA,NA,NA,Serranidae,Perciformes/Serranoidei,Teleostei,Osteichthyes
-582,Carangidae,NA,NA,NA,Carangidae,Carangiformes,Teleostei,Osteichthyes
-597,Lutjanidae,NA,NA,NA,Lutjanidae,Eupercaria/misc,Teleostei,Osteichthyes
-600,Squalidae,NA,NA,NA,Squalidae,Squaliformes,Elasmobranchii,Chondrichthyes
-620,Sphyraena sp,NA,Sphyraena,NA,Sphyraenidae,Carangaria/misc,Teleostei,Osteichthyes
-625,Gerreidae,NA,NA,NA,Gerreidae,Eupercaria/misc,Teleostei,Osteichthyes
-630,Haemulidae,NA,NA,NA,Haemulidae,Eupercaria/misc,Teleostei,Osteichthyes
-643,Sparidae,NA,NA,NA,Sparidae,Eupercaria/misc,Teleostei,Osteichthyes
-683,Labridae,NA,NA,NA,Labridae,Eupercaria/misc,Teleostei,Osteichthyes
-733,Blenniidae,NA,NA,NA,Blenniidae,Blenniiformes,Teleostei,Osteichthyes
-739,Gobiidae,NA,NA,NA,Gobiidae,Gobiiformes,Teleostei,Osteichthyes
-759,Scorpaenidae,NA,NA,NA,Scorpaenidae,Perciformes/Scorpaenoidei,Teleostei,Osteichthyes
-773,Pleuronectidae,NA,NA,NA,Pleuronectidae,Pleuronectiformes,Teleostei,Osteichthyes
-794,Etropus sp,NA,Etropus,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-795,Bothidae,NA,NA,NA,Bothidae,Pleuronectiformes,Teleostei,Osteichthyes
-820,Balistidae,NA,NA,NA,Balistidae,Tetraodontiformes,Teleostei,Osteichthyes
-822,Trichiuridae,NA,NA,NA,Trichiuridae,Scombriformes,Teleostei,Osteichthyes
-851,Engraulidae,NA,NA,NA,Engraulidae,Clupeiformes,Teleostei,Osteichthyes
-855,Chaetodontidae,NA,NA,NA,Chaetodontidae,Acanthuriformes,Teleostei,Osteichthyes
-857,Uranoscopidae,NA,NA,NA,Uranoscopidae,Perciformes/Uranoscopoidei,Teleostei,Osteichthyes
-858,Sciaenidae,NA,NA,NA,Sciaenidae,Eupercaria/misc,Teleostei,Osteichthyes
-860,Scombridae,NA,NA,NA,Scombridae,Scombriformes,Teleostei,Osteichthyes
-861,Tetraodontidae,NA,NA,NA,Tetraodontidae,Tetraodontiformes,Teleostei,Osteichthyes
-866,Citharichthys sp,NA,Citharichthys,NA,Cyclopsettidae,Pleuronectiformes,Teleostei,Osteichthyes
-887,Gonostomatidae,NA,NA,NA,Gonostomatidae,Stomiiformes,Teleostei,Osteichthyes
-896,Paralepidae,NA,NA,NA,Paralepididae,Aulopiformes,Teleostei,Osteichthyes
-900,Lophiiformes,NA,NA,NA,NA,Lophiiformes,Teleostei,Osteichthyes
+"","svspp","NOAA_label","validated_species","genus","subfamily","family","order","class","super_class"
+"1",1,"Myxine glutinosa","Myxine glutinosa","Myxine","Myxininae","Myxinidae","Myxiniformes","Myxini","Agnatha"
+"2",2,"Petromyzon marinus","Petromyzon marinus","Petromyzon","Petromyzontinae","Petromyzontidae","Petromyzontiformes","Petromyzonti","Agnatha"
+"3",3,"Carcharhinus obscurus","Carcharhinus obscurus","Carcharhinus",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"4",4,"Dasyatis centroura","Bathytoshia centroura","Bathytoshia","Dasyatinae","Dasyatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"5",6,"Cetorhinus maximus","Cetorhinus maximus","Cetorhinus",NA,"Cetorhinidae","Lamniformes","Elasmobranchii","Chondrichthyes"
+"6",7,"Centroscyllium fabricii","Centroscyllium fabricii","Centroscyllium",NA,"Etmopteridae","Squaliformes","Elasmobranchii","Chondrichthyes"
+"7",8,"Etmopterus princeps","Etmopterus princeps","Etmopterus",NA,"Etmopteridae","Squaliformes","Elasmobranchii","Chondrichthyes"
+"8",9,"Carcharhinus plumbeus","Carcharhinus plumbeus","Carcharhinus",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"9",12,"Carcharias taurus","Carcharias taurus","Carcharias",NA,"Carchariidae","Lamniformes","Elasmobranchii","Chondrichthyes"
+"10",13,"Mustelus canis","Mustelus canis","Mustelus","Triakinae","Triakidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"11",14,"Scyliorhinus retifer","Scyliorhinus retifer","Scyliorhinus","Scyliorhininae","Scyliorhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"12",15,"Squalus acanthias","Squalus acanthias","Squalus",NA,"Squalidae","Squaliformes","Elasmobranchii","Chondrichthyes"
+"13",16,"Squatina dumeril","Squatina dumeril","Squatina",NA,"Squatinidae","Squatiniformes","Elasmobranchii","Chondrichthyes"
+"14",18,"Dasyatis say","Hypanus say","Hypanus","Dasyatinae","Dasyatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"15",19,"Myliobatis freminvillei","Myliobatis freminvillei","Myliobatis",NA,"Myliobatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"16",21,"Torpedo nobiliana","Tetronarce nobiliana","Tetronarce",NA,"Torpedinidae","Torpediniformes","Elasmobranchii","Chondrichthyes"
+"17",22,"Dipturus laevis","Dipturus laevis","Dipturus",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"18",23,"Leucoraja ocellata","Leucoraja ocellata","Leucoraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"19",24,"Raja eglanteria","Rostroraja eglanteria","Rostroraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"20",25,"Leucoraja garmani","Leucoraja garmani","Leucoraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"21",26,"Leucoraja erinacea","Leucoraja erinaceus","Leucoraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"22",27,"Malacoraja senta","Malacoraja senta","Malacoraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"23",28,"Amblyraja radiata","Amblyraja radiata","Amblyraja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"24",29,"Dasyatis americana","Hypanus americanus","Hypanus","Dasyatinae","Dasyatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"25",31,"Etrumeus teres","Etrumeus sadina","Etrumeus",NA,"Dussumieriidae","Clupeiformes","Teleostei","Osteichthyes"
+"26",32,"Clupea harengus","Clupea harengus","Clupea",NA,"Clupeidae","Clupeiformes","Teleostei","Osteichthyes"
+"27",33,"Alosa pseudoharengus","Alosa pseudoharengus","Alosa",NA,"Alosidae","Clupeiformes","Teleostei","Osteichthyes"
+"28",34,"Alosa aestivalis","Alosa aestivalis","Alosa",NA,"Alosidae","Clupeiformes","Teleostei","Osteichthyes"
+"29",35,"Alosa sapidissima","Alosa sapidissima","Alosa",NA,"Alosidae","Clupeiformes","Teleostei","Osteichthyes"
+"30",36,"Brevoortia tyrannus","Brevoortia tyrannus","Brevoortia",NA,"Alosidae","Clupeiformes","Teleostei","Osteichthyes"
+"31",37,"Alosa mediocris","Alosa mediocris","Alosa",NA,"Alosidae","Clupeiformes","Teleostei","Osteichthyes"
+"32",38,"Mallotus villosus","Mallotus villosus","Mallotus",NA,"Osmeridae","Osmeriformes","Teleostei","Osteichthyes"
+"33",43,"Anchoa mitchilli","Anchoa mitchilli","Anchoa","Engraulinae","Engraulidae","Clupeiformes","Teleostei","Osteichthyes"
+"34",44,"Anchoa hepsetus","Anchoa hepsetus","Anchoa","Engraulinae","Engraulidae","Clupeiformes","Teleostei","Osteichthyes"
+"35",45,"Osmerus mordax","Osmerus mordax","Osmerus",NA,"Osmeridae","Osmeriformes","Teleostei","Osteichthyes"
+"36",46,"Argentina silus","Argentina silus","Argentina",NA,"Argentinidae","Argentiniformes","Teleostei","Osteichthyes"
+"37",53,"Myctophum humboldti","Myctophum punctatum","Myctophum","Myctophinae","Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"38",54,"Ceratoscopelus maderensis","Ceratoscopelus maderensis","Ceratoscopelus","Lampanyctinae","Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"39",57,"Hygophum taaningi","Hygophum taaningi","Hygophum","Myctophinae","Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"40",63,"Conger oceanicus","Conger oceanicus","Conger","Congrinae","Congridae","Anguilliformes","Teleostei","Osteichthyes"
+"41",64,"Simenchelys parasiticus","Simenchelys parasitica","Simenchelys","Simenchelyinae","Synaphobranchidae","Anguilliformes","Teleostei","Osteichthyes"
+"42",65,"Ophichthus cruentifer","Ophichthus cruentifer","Ophichthus","Ophichthinae","Ophichthidae","Anguilliformes","Teleostei","Osteichthyes"
+"43",66,"Hyporhamphus unifasciatus","Hyporhamphus unifasciatus","Hyporhamphus",NA,"Hemiramphidae","Beloniformes","Teleostei","Osteichthyes"
+"44",67,"Nemichthys scolopaceus","Nemichthys scolopaceus","Nemichthys",NA,"Nemichthyidae","Anguilliformes","Teleostei","Osteichthyes"
+"45",68,"Ablennes hians","Ablennes hians","Ablennes",NA,"Belonidae","Beloniformes","Teleostei","Osteichthyes"
+"46",69,"Merluccius albidus","Merluccius albidus","Merluccius",NA,"Merlucciidae","Gadiformes","Teleostei","Osteichthyes"
+"47",70,"Gadella imberbis","Gadella imberbis","Gadella",NA,"Moridae","Gadiformes","Teleostei","Osteichthyes"
+"48",72,"Merluccius bilinearis","Merluccius bilinearis","Merluccius",NA,"Merlucciidae","Gadiformes","Teleostei","Osteichthyes"
+"49",73,"Gadus morhua","Gadus morhua","Gadus",NA,"Gadidae","Gadiformes","Teleostei","Osteichthyes"
+"50",74,"Melanogrammus aeglefinus","Melanogrammus aeglefinus","Melanogrammus",NA,"Gadidae","Gadiformes","Teleostei","Osteichthyes"
+"51",75,"Pollachius virens","Pollachius virens","Pollachius",NA,"Gadidae","Gadiformes","Teleostei","Osteichthyes"
+"52",76,"Urophycis tenuis","Urophycis tenuis","Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"53",77,"Urophycis chuss","Urophycis chuss","Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"54",78,"Urophycis regia","Urophycis regia","Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"55",79,"Urophycis chesteri","Phycis chesteri","Phycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"56",81,"Antimora rostrata","Antimora rostrata","Antimora",NA,"Moridae","Gadiformes","Teleostei","Osteichthyes"
+"57",82,"Physiculus fulvus","Physiculus fulvus","Physiculus",NA,"Moridae","Gadiformes","Teleostei","Osteichthyes"
+"58",83,"Enchelyopus cimbrius","Enchelyopus cimbrius","Enchelyopus",NA,"Gaidropsaridae","Gadiformes","Teleostei","Osteichthyes"
+"59",84,"Brosme brosme","Brosme brosme","Brosme",NA,"Lotidae","Gadiformes","Teleostei","Osteichthyes"
+"60",85,"Gaidropsarus ensis","Gaidropsarus ensis","Gaidropsarus",NA,"Gaidropsaridae","Gadiformes","Teleostei","Osteichthyes"
+"61",91,"Nezumia bairdi","Nezumia bairdii","Nezumia",NA,"Macrouridae","Gadiformes","Teleostei","Osteichthyes"
+"62",92,"Macrourus berglax","Macrourus berglax","Macrourus",NA,"Macrouridae","Gadiformes","Teleostei","Osteichthyes"
+"63",93,"Coelorhynchus carminatus","Coelorinchus caelorhincus","Coelorinchus",NA,"Macrouridae","Gadiformes","Teleostei","Osteichthyes"
+"64",98,"Poecilopsetta beani","Poecilopsetta beanii","Poecilopsetta",NA,"Poecilopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"65",99,"Reinhardtius hippoglossoides","Reinhardtius hippoglossoides","Reinhardtius","Hippoglossinae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"66",101,"Hippoglossus hippoglossus","Hippoglossus hippoglossus","Hippoglossus","Hippoglossinae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"67",102,"Hippoglossoides platessoides","Hippoglossoides platessoides","Hippoglossoides","Pleuronectinae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"68",103,"Paralichthys dentatus","Paralichthys dentatus","Paralichthys",NA,"Paralichthyidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"69",104,"Paralichthys oblongus","Hippoglossina oblonga","Hippoglossina",NA,"Paralichthyidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"70",105,"Limanda ferruginea","Myzopsetta ferruginea","Myzopsetta","Pleuronectinae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"71",106,"Pseudopleuronectes americanus","Pseudopleuronectes americanus","Pseudopleuronectes","Pleuronectinae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"72",107,"Glyptocephalus cynoglossus","Glyptocephalus cynoglossus","Glyptocephalus","Microstominae","Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"73",108,"Scophthalmus aquosus","Scophthalmus aquosus","Scophthalmus",NA,"Scophthalmidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"74",109,"Citharichthys arctifrons","Citharichthys arctifrons","Citharichthys",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"75",110,"Monolene sessilicauda","Monolene sessilicauda","Monolene",NA,"Bothidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"76",111,"Macrorhamphosus scolopax","Macroramphosus scolopax","Macroramphosus","Macroramphosinae","Centriscidae","Syngnathiformes","Teleostei","Osteichthyes"
+"77",112,"Zenopsis conchifera","Zenopsis conchifer","Zenopsis",NA,"Zeidae","Zeiformes","Teleostei","Osteichthyes"
+"78",113,"Menidia menidia","Menidia menidia","Menidia","Menidiinae","Atherinopsidae","Atheriniformes","Teleostei","Osteichthyes"
+"79",114,"Synagrops bellus","Synagrops bellus","Synagrops",NA,"Synagropidae","Acropomatiformes","Teleostei","Osteichthyes"
+"80",115,"Gasterosteus aculeatus","Gasterosteus aculeatus","Gasterosteus",NA,"Gasterosteidae","Perciformes/Gasterosteoidei","Teleostei","Osteichthyes"
+"81",116,"Syngnathus fuscus","Syngnathus fuscus","Syngnathus","Syngnathinae","Syngnathidae","Syngnathiformes","Teleostei","Osteichthyes"
+"82",117,"Etropus microstomus","Etropus microstomus","Etropus",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"83",118,"Trinectes maculatus","Trinectes maculatus","Trinectes",NA,"Achiridae","Pleuronectiformes","Teleostei","Osteichthyes"
+"84",120,"Fistularia tabacaria","Fistularia tabacaria","Fistularia",NA,"Fistulariidae","Syngnathiformes","Teleostei","Osteichthyes"
+"85",121,"Scomber scombrus","Scomber scombrus","Scomber","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"86",123,"Sarda sarda","Sarda sarda","Sarda","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"87",124,"Scomber japonicus","Scomber japonicus","Scomber","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"88",126,"Trichiurus lepturus","Trichiurus lepturus","Trichiurus","Trichiurinae","Trichiuridae","Scombriformes","Teleostei","Osteichthyes"
+"89",127,"Promethichthys prometheus","Promethichthys prometheus","Promethichthys",NA,"Gempylidae","Scombriformes","Teleostei","Osteichthyes"
+"90",129,"Caranx crysos","Caranx crysos","Caranx","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"91",131,"Peprilus triacanthus","Peprilus triacanthus","Peprilus",NA,"Stromateidae","Scombriformes","Teleostei","Osteichthyes"
+"92",132,"Selene setapinnis","Selene setapinnis","Selene","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"93",133,"Selene vomer","Selene vomer","Selene","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"94",134,"Priacanthus arenatus","Priacanthus arenatus","Priacanthus",NA,"Priacanthidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"95",135,"Pomatomus saltatrix","Pomatomus saltatrix","Pomatomus",NA,"Pomatomidae","Scombriformes","Teleostei","Osteichthyes"
+"96",136,"Micropogonias undulatus","Micropogonias undulatus","Micropogonias",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"97",137,"Synagrops spinosus","Parascombrops spinosus","Parascombrops",NA,"Synagropidae","Acropomatiformes","Teleostei","Osteichthyes"
+"98",139,"Morone saxatilis","Morone saxatilis","Morone",NA,"Moronidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"99",141,"Centropristis striata","Centropristis striata","Centropristis",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"100",142,"Orthopristis chrysoptera","Orthopristis chrysoptera","Orthopristis","Haemulinae","Haemulidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"101",143,"Stenotomus chrysops","Stenotomus chrysops","Stenotomus",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"102",144,"Epigonus pandionis","Epigonus pandionis","Epigonus",NA,"Epigonidae","Acropomatiformes","Teleostei","Osteichthyes"
+"103",145,"Cynoscion regalis","Cynoscion regalis","Cynoscion",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"104",146,"Menticirrhus saxatilis","Menticirrhus saxatilis","Menticirrhus",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"105",148,"Bairdiella chrysoura","Bairdiella chrysoura","Bairdiella",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"106",149,"Leiostomus xanthurus","Leiostomus xanthurus","Leiostomus",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"107",150,"Howella sherborni","Howella sherborni","Howella",NA,"Howellidae","Acropomatiformes","Teleostei","Osteichthyes"
+"108",151,"Lopholatilus chamaeleonticeps","Lopholatilus chamaeleonticeps","Lopholatilus",NA,"Latilidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"109",154,"Pontinus longispinis","Pontinus longispinis","Pontinus","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"110",155,"Sebastes fasciatus","Sebastes fasciatus","Sebastes","Sebastinae","Sebastidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"111",156,"Helicolenus dactylopterus","Helicolenus dactylopterus","Helicolenus","Sebastinae","Sebastidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"112",158,"Antigonia capros","Antigonia capros","Antigonia",NA,"Antigoniidae","Acanthuriformes","Teleostei","Osteichthyes"
+"113",161,"Triglops murrayi","Triglops murrayi","Triglops",NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"114",162,"Myoxocephalus scorpius","Myoxocephalus scorpius","Myoxocephalus",NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"115",163,"Myoxocephalus octodecemspinosus","Myoxocephalus octodecemspinosus","Myoxocephalus",NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"116",164,"Hemitripterus americanus","Hemitripterus americanus","Hemitripterus","Hemitripterinae","Agonidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"117",165,"Aspidophoroides monopterygius","Aspidophoroides monopterygius","Aspidophoroides","Anoplagoninae","Agonidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"118",166,"Myoxocephalus aenaeus","Myoxocephalus aenaeus","Myoxocephalus",NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"119",167,"Liparis inquilinus","Liparis inquilinus","Liparis",NA,"Liparidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"120",168,"Cyclopterus lumpus","Cyclopterus lumpus","Cyclopterus","Cyclopterinae","Cyclopteridae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"121",169,"Eumicrotremus spinosus","Eumicrotremus spinosus","Eumicrotremus","Eumicrotreminae","Cyclopteridae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"122",170,"Liparis atlanticus","Liparis atlanticus","Liparis",NA,"Liparidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"123",171,"Prionotus carolinus","Prionotus carolinus","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"124",172,"Prionotus evolans","Prionotus evolans","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"125",173,"Peristedion miniatum","Peristedion miniatum","Peristedion",NA,"Peristediidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"126",175,"Dactylopterus volitans","Dactylopterus volitans","Dactylopterus",NA,"Dactylopteridae","Dactylopteriformes","Teleostei","Osteichthyes"
+"127",176,"Tautogolabrus adspersus","Tautogolabrus adspersus","Tautogolabrus",NA,"Labridae","Eupercaria/misc","Teleostei","Osteichthyes"
+"128",177,"Tautoga onitis","Tautoga onitis","Tautoga",NA,"Labridae","Eupercaria/misc","Teleostei","Osteichthyes"
+"129",179,"Astroscopus guttatus","Astroscopus guttatus","Astroscopus",NA,"Uranoscopidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"130",180,"Pholis gunnellus","Pholis gunnellus","Pholis","Pholinae","Pholidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"131",181,"Ammodytes dubius","Ammodytes dubius","Ammodytes",NA,"Ammodytidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"132",182,"Lumpenus lumpretaeformis","Lumpenus lampretaeformis","Lumpenus",NA,"Lumpenidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"133",183,"Lumpenus maculatus","Leptoclinus maculatus","Leptoclinus",NA,"Lumpenidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"134",184,"Ulvaria subbifurcata","Ulvaria subbifurcata","Ulvaria","Stichaeinae","Stichaeidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"135",185,"Opsanus tau","Opsanus tau","Opsanus","Batrachoidinae","Batrachoididae","Batrachoidiformes","Teleostei","Osteichthyes"
+"136",186,"Otophidium omostigmum","Otophidium omostigma","Otophidium","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"137",187,"Mullus auratus","Mullus auratus","Mullus",NA,"Mullidae","Mulliformes","Teleostei","Osteichthyes"
+"138",188,"Ophidion marginatum","Ophidion marginatum","Ophidion","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"139",190,"Lycenchelys verrilli","Lycenchelys verrillii","Lycenchelys","Lycodinae","Zoarcidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"140",191,"Cryptacanthodes maculatus","Cryptacanthodes maculatus","Cryptacanthodes",NA,"Cryptacanthodidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"141",192,"Anarhichas lupus","Anarhichas lupus","Anarhichas",NA,"Anarhichadidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"142",193,"Macrozoarces americanus","Zoarces americanus","Zoarces","Zoarcinae","Zoarcidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"143",194,"Lepophidium profundorum","Lepophidium profundorum","Lepophidium","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"144",195,"Lagocephalus laevigatus","Lagocephalus laevigatus","Lagocephalus","Tetraodontinae","Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"145",196,"Sphoeroides maculatus","Sphoeroides maculatus","Sphoeroides","Tetraodontinae","Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"146",197,"Lophius americanus","Lophius americanus","Lophius",NA,"Lophiidae","Lophiiformes","Teleostei","Osteichthyes"
+"147",198,"Chilomycterus schoepfi","Chilomycterus schoepfii","Chilomycterus",NA,"Diodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"148",199,"Dibranchus atlanticus","Dibranchus atlanticus","Dibranchus",NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"149",201,"Monacanthus hispidus","Stephanolepis hispida","Stephanolepis",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"150",202,"Balistes capriscus","Balistes capriscus","Balistes",NA,"Balistidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"151",203,"Seriola dumerili","Seriola dumerili","Seriola","Naucratinae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"152",204,"Seriola zonata","Seriola zonata","Seriola","Naucratinae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"153",205,"Scomberesox saurus","Scomberesox saurus","Scomberesox",NA,"Scomberesocidae","Beloniformes","Teleostei","Osteichthyes"
+"154",206,"Ogcocephalus corniger","Ogcocephalus corniger","Ogcocephalus",NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"155",207,"Hyperoglyphe perciformis","Hyperoglyphe perciformis","Hyperoglyphe",NA,"Centrolophidae","Scombriformes","Teleostei","Osteichthyes"
+"156",208,"Decapterus macarellus","Decapterus macarellus","Decapterus","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"157",209,"Selar crumenophthalmus","Selar crumenophthalmus","Selar","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"158",210,"Diaphus dumerili","Diaphus dumerilii","Diaphus","Diaphinae","Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"159",211,"Decapterus punctatus","Decapterus punctatus","Decapterus","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"160",212,"Trachurus lathami","Trachurus lathami","Trachurus","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"161",213,"Ariomma bondi","Ariomma bondi","Ariomma",NA,"Ariommatidae","Scombriformes","Teleostei","Osteichthyes"
+"162",227,"Nesiarchus nasutus","Nesiarchus nasutus","Nesiarchus",NA,"Gempylidae","Scombriformes","Teleostei","Osteichthyes"
+"163",228,"Stomias boa","Stomias boa","Stomias","Stomiinae","Stomiidae","Stomiiformes","Teleostei","Osteichthyes"
+"164",229,"Maurolicus weitzmani","Maurolicus weitzmani","Maurolicus","Maurolicinae","Sternoptychidae","Stomiiformes","Teleostei","Osteichthyes"
+"165",232,"Chlorophthalmus agassizi","Chlorophthalmus agassizi","Chlorophthalmus",NA,"Chlorophthalmidae","Aulopiformes","Teleostei","Osteichthyes"
+"166",234,"Gonostoma atlanticum","Gonostoma atlanticum","Gonostoma",NA,"Gonostomatidae","Stomiiformes","Teleostei","Osteichthyes"
+"167",235,"Gonostoma elongatum","Sigmops elongatus","Sigmops",NA,"Gonostomatidae","Stomiiformes","Teleostei","Osteichthyes"
+"168",237,"Polymetme thaeocoryla","Polymetme thaeocoryla","Polymetme",NA,"Phosichthyidae","Stomiiformes","Teleostei","Osteichthyes"
+"169",239,"Benthodesmus simonyi","Benthodesmus simonyi","Benthodesmus","Aphanopodinae","Trichiuridae","Scombriformes","Teleostei","Osteichthyes"
+"170",240,"Chauliodus sloani","Chauliodus sloani","Chauliodus","Chauliodontinae","Stomiidae","Stomiiformes","Teleostei","Osteichthyes"
+"171",241,"Chauliodus danae","Chauliodus danae","Chauliodus","Chauliodontinae","Stomiidae","Stomiiformes","Teleostei","Osteichthyes"
+"172",242,"Parasudis truculenta","Parasudis truculenta","Parasudis",NA,"Chlorophthalmidae","Aulopiformes","Teleostei","Osteichthyes"
+"173",245,"Paralepis coregonoides","Paralepis coregonoides","Paralepis",NA,"Paralepididae","Aulopiformes","Teleostei","Osteichthyes"
+"174",246,"Arctozenus rissoi","Arctozenus risso","Arctozenus",NA,"Paralepididae","Aulopiformes","Teleostei","Osteichthyes"
+"175",250,"Argyropelecus aculeatus","Argyropelecus aculeatus","Argyropelecus","Sternoptychinae","Sternoptychidae","Stomiiformes","Teleostei","Osteichthyes"
+"176",251,"Polyipnus clarus","Polyipnus clarus","Polyipnus","Sternoptychinae","Sternoptychidae","Stomiiformes","Teleostei","Osteichthyes"
+"177",260,"Careproctus ranula","Careproctus ranula","Careproctus",NA,"Liparidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"178",261,"Hoplostethus mediterraneus","Hoplostethus mediterraneus","Hoplostethus",NA,"Trachichthyidae","Trachichthyiformes","Teleostei","Osteichthyes"
+"179",262,"Melanostigma atlanticum","Melanostigma atlanticum","Melanostigma","Gymnelinae","Zoarcidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"180",263,"Polymixia lowei","Polymixia lowei","Polymixia",NA,"Polymixiidae","Polymixiiformes","Teleostei","Osteichthyes"
+"181",264,"Polymixia nobilis","Polymixia nobilis","Polymixia",NA,"Polymixiidae","Polymixiiformes","Teleostei","Osteichthyes"
+"182",265,"Mola mola","Mola mola","Mola",NA,"Molidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"183",266,"Hoplostethus occidentalis","Hoplostethus occidentalis","Hoplostethus",NA,"Trachichthyidae","Trachichthyiformes","Teleostei","Osteichthyes"
+"184",268,"Gephyroberyx darwini","Gephyroberyx darwinii","Gephyroberyx",NA,"Trachichthyidae","Trachichthyiformes","Teleostei","Osteichthyes"
+"185",270,"Rhinoptera bonasus","Rhinoptera bonasus","Rhinoptera",NA,"Rhinopteridae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"186",271,"Aetobatis narinari","Aetobatus narinari","Aetobatus",NA,"Aetobatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"187",280,"Malacocephalus occidentalis","Malacocephalus occidentalis","Malacocephalus",NA,"Macrouridae","Gadiformes","Teleostei","Osteichthyes"
+"188",352,"Isurus oxyrinchus","Isurus oxyrinchus","Isurus",NA,"Lamnidae","Lamniformes","Elasmobranchii","Chondrichthyes"
+"189",353,"Lamna nasus","Lamna nasus","Lamna",NA,"Lamnidae","Lamniformes","Elasmobranchii","Chondrichthyes"
+"190",355,"Carcharhinus falciformis","Carcharhinus falciformis","Carcharhinus",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"191",360,"Rhizoprionodon terraenovae","Rhizoprionodon terraenovae","Rhizoprionodon",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"192",362,"Sphyrna lewini","Sphyrna lewini","Sphyrna",NA,"Sphyrnidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"193",375,"Gymnura altavela","Gymnura altavela","Gymnura",NA,"Gymnuridae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"194",376,"Gymnura micrura","Gymnura micrura","Gymnura",NA,"Gymnuridae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"195",378,"Myliobatis goodei","Myliobatis goodei","Myliobatis",NA,"Myliobatidae","Myliobatiformes","Elasmobranchii","Chondrichthyes"
+"196",380,"Acipenser oxyrhynchus","Acipenser oxyrinchus","Acipenser","Acipenserinae","Acipenseridae","Acipenseriformes","Chondrostei","Osteichthyes"
+"197",384,"Anguilla rostrata","Anguilla rostrata","Anguilla",NA,"Anguillidae","Anguilliformes","Teleostei","Osteichthyes"
+"198",396,"Ophichthus puncticeps","Ophichthus puncticeps","Ophichthus","Ophichthinae","Ophichthidae","Anguilliformes","Teleostei","Osteichthyes"
+"199",428,"Opisthonema oglinum","Opisthonema oglinum","Opisthonema",NA,"Dorosomatidae","Clupeiformes","Teleostei","Osteichthyes"
+"200",429,"Sardinella aurita","Sardinella aurita","Sardinella",NA,"Dorosomatidae","Clupeiformes","Teleostei","Osteichthyes"
+"201",434,"Saurida normani","Saurida normani","Saurida","Harpadontinae","Synodontidae","Aulopiformes","Teleostei","Osteichthyes"
+"202",435,"Synodus foetens","Synodus foetens","Synodus","Synodontinae","Synodontidae","Aulopiformes","Teleostei","Osteichthyes"
+"203",436,"Synodus intermedius","Synodus intermedius","Synodus","Synodontinae","Synodontidae","Aulopiformes","Teleostei","Osteichthyes"
+"204",437,"Synodus poeyi","Synodus poeyi","Synodus","Synodontinae","Synodontidae","Aulopiformes","Teleostei","Osteichthyes"
+"205",439,"Trachinocephalus myops","Trachinocephalus myops","Trachinocephalus","Synodontinae","Synodontidae","Aulopiformes","Teleostei","Osteichthyes"
+"206",440,"Alepisaurus ferox","Alepisaurus ferox","Alepisaurus",NA,"Alepisauridae","Aulopiformes","Teleostei","Osteichthyes"
+"207",444,"Porichthys plectrodon","Porichthys plectrodon","Porichthys","Porichthyinae","Batrachoididae","Batrachoidiformes","Teleostei","Osteichthyes"
+"208",446,"Antennarius radiosus","Fowlerichthys radiosus","Fowlerichthys",NA,"Antennariidae","Lophiiformes","Teleostei","Osteichthyes"
+"209",449,"Halieutichthys aculeatus","Halieutichthys aculeatus","Halieutichthys",NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"210",450,"Ogcocephalus nasutus","Ogcocephalus nasutus","Ogcocephalus",NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"211",451,"Ogcocephalus parvus","Ogcocephalus parvus","Ogcocephalus",NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"212",454,"Urophycis earllii","Urophycis earllii","Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"213",455,"Urophycis floridana","Urophycis floridana","Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"214",458,"Ophidion grayi","Ophidion grayi","Ophidion","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"215",459,"Ophidion holbrooki","Ophidion holbrookii","Ophidion","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"216",462,"Carapus bermudensis","Carapus bermudensis","Carapus","Carapinae","Carapidae","Ophidiiformes","Teleostei","Osteichthyes"
+"217",463,"Cypselurus cyanopterus","Cheilopogon cyanopterus","Cheilopogon",NA,"Exocoetidae","Beloniformes","Teleostei","Osteichthyes"
+"218",484,"Plectrypops retrospinis","Plectrypops retrospinis","Plectrypops","Myripristinae","Holocentridae","Holocentriformes","Teleostei","Osteichthyes"
+"219",486,"Antigonia combatia","Antigonia combatia","Antigonia",NA,"Antigoniidae","Acanthuriformes","Teleostei","Osteichthyes"
+"220",488,"Apeltes quadracus","Apeltes quadracus","Apeltes",NA,"Gasterosteidae","Perciformes/Gasterosteoidei","Teleostei","Osteichthyes"
+"221",489,"Fistularia petimba","Fistularia petimba","Fistularia",NA,"Fistulariidae","Syngnathiformes","Teleostei","Osteichthyes"
+"222",492,"Hippocampus erectus","Hippocampus erectus","Hippocampus","Syngnathinae","Syngnathidae","Syngnathiformes","Teleostei","Osteichthyes"
+"223",500,"Anthias nicholsi","Anthias nicholsi","Anthias",NA,"Anthiadidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"224",526,"Centropristis ocyurus","Centropristis ocyurus","Centropristis",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"225",527,"Centropristis philadelphica","Centropristis philadelphica","Centropristis",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"226",529,"Diplectrum bivittatum","Diplectrum bivittatum","Diplectrum",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"227",530,"Diplectrum formosum","Diplectrum formosum","Diplectrum",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"228",536,"Epinephelus nigritus","Hyporthodus nigritus","Hyporthodus",NA,"Epinephelidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"229",537,"Epinephelus niveatus","Hyporthodus niveatus","Hyporthodus",NA,"Epinephelidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"230",539,"Hemanthias vivanus","Baldwinella vivanus","Baldwinella",NA,"Anthiadidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"231",541,"Mycteroperca microlepis","Mycteroperca microlepis","Mycteroperca",NA,"Epinephelidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"232",546,"Hemanthias aureorubens","Baldwinella aureorubens","Baldwinella",NA,"Anthiadidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"233",549,"Serranus atrobranchus","Serranus atrobranchus","Serranus",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"234",552,"Serranus phoebe","Serranus phoebe","Serranus",NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"235",556,"Priacanthus cruentatus","Heteropriacanthus cruentatus","Heteropriacanthus",NA,"Priacanthidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"236",557,"Pristigenys alta","Pristigenys alta","Pristigenys",NA,"Priacanthidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"237",559,"Apogon pseudomaculatus","Apogon pseudomaculatus","Apogon","Apogoninae","Apogonidae","Kurtiformes","Teleostei","Osteichthyes"
+"238",562,"Caulolatilus cyanops","Caulolatilus cyanops","Caulolatilus",NA,"Latilidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"239",563,"Rachycentron canadum","Rachycentron canadum","Rachycentron",NA,"Rachycentridae","Carangiformes","Teleostei","Osteichthyes"
+"240",564,"Echeneis naucrates","Echeneis naucrates","Echeneis",NA,"Echeneidae","Carangiformes","Teleostei","Osteichthyes"
+"241",567,"Remora remora","Remora remora","Remora",NA,"Echeneidae","Carangiformes","Teleostei","Osteichthyes"
+"242",568,"Alectis ciliaris","Alectis ciliaris","Alectis","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"243",569,"Caranx bartholomaei","Caranx bartholomaei","Caranx","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"244",571,"Caranx latus","Caranx latus","Caranx","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"245",573,"Chloroscombrus chrysurus","Chloroscombrus chrysurus","Chloroscombrus","Caranginae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"246",576,"Naucrates ductor","Naucrates ductor","Naucrates","Naucratinae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"247",578,"Seriola rivoliana","Seriola rivoliana","Seriola","Naucratinae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"248",584,"Coryphaena hippurus","Coryphaena hippurus","Coryphaena",NA,"Coryphaenidae","Carangiformes","Teleostei","Osteichthyes"
+"249",592,"Lutjanus synagris","Lutjanus synagris","Lutjanus","Lutjaninae","Lutjanidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"250",595,"Pristipomoides aquilonaris","Pristipomoides aquilonaris","Pristipomoides","Etelinae","Lutjanidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"251",596,"Rhomboplites aurorubens","Rhomboplites aurorubens","Rhomboplites","Lutjaninae","Lutjanidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"252",599,"Eucinostomus gula","Eucinostomus gula","Eucinostomus",NA,"Gerreidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"253",601,"Etmopterus gracilispinis","Etmopterus gracilispinis","Etmopterus",NA,"Etmopteridae","Squaliformes","Elasmobranchii","Chondrichthyes"
+"254",616,"Cookeolus japonicus","Cookeolus japonicus","Cookeolus",NA,"Priacanthidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"255",617,"Xenolepidichthys dalgleishi","Xenolepidichthys dalgleishi","Xenolepidichthys","Grammicolepidinae","Grammicolepididae","Zeiformes","Teleostei","Osteichthyes"
+"256",621,"Caulolatilus microps","Caulolatilus microps","Caulolatilus",NA,"Latilidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"257",622,"Caulolatilus chrysops","Caulolatilus chrysops","Caulolatilus",NA,"Latilidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"258",631,"Archosargus probatocephalus","Archosargus probatocephalus","Archosargus",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"259",634,"Calamus leucosteus","Calamus leucosteus","Calamus",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"260",640,"Lagodon rhomboides","Lagodon rhomboides","Lagodon",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"261",641,"Pagrus sedecim","Pagrus pagrus","Pagrus",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"262",642,"Stenotomus caprinus","Stenotomus caprinus","Stenotomus",NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"263",650,"Equetus umbrosus","Pareques umbrosus","Pareques",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"264",651,"Larimus fasciatus","Larimus fasciatus","Larimus",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"265",652,"Menticirrhus americanus","Menticirrhus americanus","Menticirrhus",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"266",654,"Sciaenops ocellatus","Sciaenops ocellatus","Sciaenops",NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"267",656,"Pseudupeneus maculatus","Pseudupeneus maculatus","Pseudupeneus",NA,"Mullidae","Mulliformes","Teleostei","Osteichthyes"
+"268",657,"Upeneus parvus","Upeneus parvus","Upeneus",NA,"Mullidae","Mulliformes","Teleostei","Osteichthyes"
+"269",659,"Chaetodipterus faber","Chaetodipterus faber","Chaetodipterus",NA,"Ephippidae","Acanthuriformes","Teleostei","Osteichthyes"
+"270",662,"Chaetodon ocellatus","Chaetodon ocellatus","Chaetodon",NA,"Chaetodontidae","Acanthuriformes","Teleostei","Osteichthyes"
+"271",677,"Halichoeres bivittatus","Halichoeres bivittatus","Halichoeres","Corinae","Labridae","Eupercaria/misc","Teleostei","Osteichthyes"
+"272",682,"Lachnolaimus maximus","Lachnolaimus maximus","Lachnolaimus",NA,"Labridae","Eupercaria/misc","Teleostei","Osteichthyes"
+"273",694,"Sphyraena borealis","Sphyraena borealis","Sphyraena",NA,"Sphyraenidae","Carangaria/misc","Teleostei","Osteichthyes"
+"274",698,"Bembrops gobioides","Bembrops gobioides","Bembrops",NA,"Bembropidae","Perciformes/Bembropoidei","Teleostei","Osteichthyes"
+"275",699,"Astroscopus y-graecum","Astroscopus ygraecum","Astroscopus",NA,"Uranoscopidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"276",700,"Xiphias gladius","Xiphias gladius","Xiphias",NA,"Xiphiidae","Carangiformes","Teleostei","Osteichthyes"
+"277",702,"Auxis thazard","Auxis thazard","Auxis","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"278",703,"Thunnus alalunga","Thunnus alalunga","Thunnus","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"279",725,"Xenocephalus egregius","Xenocephalus egregius","Xenocephalus",NA,"Uranoscopidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"280",726,"Kathetostoma albigutta","Kathetostoma albigutta","Kathetostoma",NA,"Uranoscopidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"281",734,"Ammodytes americanus","Ammodytes americanus","Ammodytes",NA,"Ammodytidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"282",735,"Foetorepus agassizi","Foetorepus agassizii","Foetorepus",NA,"Callionymidae","Callionymiformes","Teleostei","Osteichthyes"
+"283",738,"Gobiosoma bosc","Gobiosoma bosc","Gobiosoma","Gobiinae","Gobiidae","Gobiiformes","Teleostei","Osteichthyes"
+"284",744,"Scomberomorus cavalla","Scomberomorus cavalla","Scomberomorus","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"285",745,"Scomberomorus maculatus","Scomberomorus maculatus","Scomberomorus","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"286",748,"Ariomma regulus","Ariomma regulus","Ariomma",NA,"Ariommatidae","Scombriformes","Teleostei","Osteichthyes"
+"287",751,"Neomerinthe hemingwayi","Neomerinthe hemingwayi","Neomerinthe","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"288",752,"Pontinus rathbuni","Pontinus rathbuni","Pontinus","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"289",753,"Scorpaena agassizi","Scorpaena agassizii","Scorpaena","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"290",755,"Scorpaena calcarata","Scorpaena calcarata","Scorpaena","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"291",756,"Scorpaena dispar","Scorpaena dispar","Scorpaena","Scorpaeninae","Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"292",760,"Bellator brachychir","Bellator brachychir","Bellator","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"293",762,"Bellator militaris","Bellator militaris","Bellator","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"294",763,"Peristedion gracile","Peristedion gracile","Peristedion",NA,"Peristediidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"295",764,"Prionotus alatus","Prionotus alatus","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"296",765,"Prionotus ophryas","Prionotus ophryas","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"297",768,"Prionotus rubio","Prionotus rubio","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"298",769,"Prionotus scitulus","Prionotus scitulus","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"299",770,"Prionotus tribulus","Prionotus tribulus","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"300",775,"Ancylopsetta quadrocellata","Ancylopsetta quadrocellata","Ancylopsetta",NA,"Paralichthyidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"301",780,"Citharichthys cornutus","Citharichthys cornutus","Citharichthys",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"302",781,"Citharichthys macrops","Citharichthys macrops","Citharichthys",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"303",783,"Cyclopsetta fimbriata","Cyclopsetta fimbriata","Cyclopsetta",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"304",785,"Etropus crossotus","Etropus crossotus","Etropus",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"305",786,"Etropus rimosus","Etropus rimosus","Etropus",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"306",788,"Paralichthys albigutta","Paralichthys albigutta","Paralichthys",NA,"Paralichthyidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"307",789,"Paralichthys lethostigma","Paralichthys lethostigma","Paralichthys",NA,"Paralichthyidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"308",793,"Syacium papillosum","Syacium papillosum","Syacium",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"309",796,"Gymnachirus melas","Gymnachirus melas","Gymnachirus",NA,"Achiridae","Pleuronectiformes","Teleostei","Osteichthyes"
+"310",797,"Symphurus civitatus","Symphurus civitatum","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"311",798,"Symphurus diomedianus","Symphurus diomedeanus","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"312",821,"Symphurus marginatus","Symphurus marginatus","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"313",824,"Lepidocybium flavobrunneum","Lepidocybium flavobrunneum","Lepidocybium",NA,"Gempylidae","Scombriformes","Teleostei","Osteichthyes"
+"314",825,"Symphurus plagiusa","Symphurus plagiusa","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"315",826,"Symphurus pusillus","Symphurus pusillus","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"316",827,"Symphurus urospilus","Symphurus urospilus","Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"317",829,"Parahollardia lineata","Parahollardia lineata","Parahollardia","Hollardiinae","Triacanthodidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"318",830,"Aluterus heudelotii","Aluterus heudelotii","Aluterus",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"319",831,"Aluterus monoceros","Aluterus monoceros","Aluterus",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"320",832,"Aluterus schoepfi","Aluterus schoepfii","Aluterus",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"321",833,"Aluterus scriptus","Aluterus scriptus","Aluterus",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"322",836,"Monacanthus ciliatus","Monacanthus ciliatus","Monacanthus",NA,"Monacanthidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"323",838,"Lactophrys polygonia","Acanthostracion polygonium","Acanthostracion",NA,"Ostraciidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"324",843,"Sphoeroides dorsalis","Sphoeroides dorsalis","Sphoeroides","Tetraodontinae","Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"325",844,"Sphoeroides nephelus","Sphoeroides nephelus","Sphoeroides","Tetraodontinae","Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"326",856,"Argentina striata","Argentina striata","Argentina",NA,"Argentinidae","Argentiniformes","Teleostei","Osteichthyes"
+"327",862,"Chaunax stigmaeus","Chaunax stigmaeus","Chaunax",NA,"Chaunacidae","Lophiiformes","Teleostei","Osteichthyes"
+"328",865,"Engraulis eurystole","Engraulis eurystole","Engraulis","Engraulinae","Engraulidae","Clupeiformes","Teleostei","Osteichthyes"
+"329",867,"Laemonema barbatulum","Laemonema barbatulum","Laemonema",NA,"Moridae","Gadiformes","Teleostei","Osteichthyes"
+"330",869,"Ophidion selenops","Ophidion selenops","Ophidion","Ophidiinae","Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"331",871,"Prionotus stearnsi","Prionotus stearnsi","Prionotus","Prionotinae","Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"332",874,"Gempylus serpens","Gempylus serpens","Gempylus",NA,"Gempylidae","Scombriformes","Teleostei","Osteichthyes"
+"333",876,"Cubiceps pauciradiatus","Cubiceps pauciradiatus","Cubiceps",NA,"Nomeidae","Scombriformes","Teleostei","Osteichthyes"
+"334",877,"Seriola fasciata","Seriola fasciata","Seriola","Naucratinae","Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"335",880,"Sphoeroides pachygaster","Sphoeroides pachygaster","Sphoeroides","Tetraodontinae","Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"336",890,"Anchoa nasuta","Anchoa lyolepis","Anchoa","Engraulinae","Engraulidae","Clupeiformes","Teleostei","Osteichthyes"
+"337",891,"Ariomma melanum","Ariomma melana","Ariomma",NA,"Ariommatidae","Scombriformes","Teleostei","Osteichthyes"
+"338",894,"Salmo salar","Salmo salar","Salmo","Salmoninae","Salmonidae","Salmoniformes","Teleostei","Osteichthyes"
+"339",897,"Lophius gastrophysus","Lophius gastrophysus","Lophius",NA,"Lophiidae","Lophiiformes","Teleostei","Osteichthyes"
+"340",899,"Cyttopsis rosea","Cyttopsis rosea","Cyttopsis","Cyttopsinae","Parazenidae","Zeiformes","Teleostei","Osteichthyes"
+"341",926,"Alopias superciliosus","Alopias superciliosus","Alopias",NA,"Alopiidae","Lamniformes","Elasmobranchii","Chondrichthyes"
+"342",931,"Carcharhinus brevipinna","Carcharhinus brevipinna","Carcharhinus",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"343",934,"Carcharhinus signatus","Carcharhinus signatus","Carcharhinus",NA,"Carcharhinidae","Carcharhiniformes","Elasmobranchii","Chondrichthyes"
+"344",938,"Sarda orientalis","Sarda orientalis","Sarda","Scombrinae","Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"345",5,"Rajiformes",NA,NA,NA,NA,"Rajiformes","Elasmobranchii","Chondrichthyes"
+"346",20,"Raja sp",NA,"Raja",NA,"Rajidae","Rajiformes","Elasmobranchii","Chondrichthyes"
+"347",30,"Clupeidae",NA,NA,NA,"Clupeidae","Clupeiformes","Teleostei","Osteichthyes"
+"348",47,"Chlorophthalmidae",NA,NA,NA,"Chlorophthalmidae","Aulopiformes","Teleostei","Osteichthyes"
+"349",56,"Myctophidae",NA,NA,NA,"Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"350",60,"Anguilliformes",NA,NA,NA,NA,"Anguilliformes","Teleostei","Osteichthyes"
+"351",61,"Diaphus sp",NA,"Diaphus","Diaphinae","Myctophidae","Myctophiformes","Teleostei","Osteichthyes"
+"352",80,"Gadidae",NA,NA,NA,"Gadidae","Gadiformes","Teleostei","Osteichthyes"
+"353",86,"Merluccius sp",NA,"Merluccius",NA,"Merlucciidae","Gadiformes","Teleostei","Osteichthyes"
+"354",87,"Urophycis sp",NA,"Urophycis",NA,"Phycidae","Gadiformes","Teleostei","Osteichthyes"
+"355",88,"Moridae",NA,NA,NA,"Moridae","Gadiformes","Teleostei","Osteichthyes"
+"356",90,"Macrouridae",NA,NA,NA,"Macrouridae","Gadiformes","Teleostei","Osteichthyes"
+"357",100,"Pleuronectiformes",NA,NA,NA,NA,"Pleuronectiformes","Teleostei","Osteichthyes"
+"358",138,"Apogonidae",NA,NA,NA,"Apogonidae","Kurtiformes","Teleostei","Osteichthyes"
+"359",159,"Artediellus sp",NA,"Artediellus",NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"360",160,"Cottidae",NA,NA,NA,"Cottidae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"361",174,"Triglidae",NA,NA,NA,"Triglidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"362",221,"Symphurus sp",NA,"Symphurus","Symphurinae","Cynoglossidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"363",231,"Chlorophthalmus sp",NA,"Chlorophthalmus",NA,"Chlorophthalmidae","Aulopiformes","Teleostei","Osteichthyes"
+"364",236,"Vinciguerria sp",NA,"Vinciguerria",NA,"Phosichthyidae","Stomiiformes","Teleostei","Osteichthyes"
+"365",248,"Stomiidae",NA,NA,NA,"Stomiidae","Stomiiformes","Teleostei","Osteichthyes"
+"366",249,"Cyclopteridae",NA,NA,NA,"Cyclopteridae","Perciformes/Cottoidei","Teleostei","Osteichthyes"
+"367",252,"Sternoptychidae",NA,NA,NA,"Sternoptychidae","Stomiiformes","Teleostei","Osteichthyes"
+"368",267,"Zoarcidae",NA,NA,NA,"Zoarcidae","Perciformes/Zoarcoidei","Teleostei","Osteichthyes"
+"369",390,"Congridae",NA,NA,NA,"Congridae","Anguilliformes","Teleostei","Osteichthyes"
+"370",399,"Echiophis sp",NA,"Echiophis","Ophichthinae","Ophichthidae","Anguilliformes","Teleostei","Osteichthyes"
+"371",421,"Syngnathidae",NA,NA,NA,"Syngnathidae","Syngnathiformes","Teleostei","Osteichthyes"
+"372",422,"Caproidae",NA,NA,NA,"Caproidae","Acanthuriformes","Teleostei","Osteichthyes"
+"373",423,"Atherinidae",NA,NA,NA,"Atherinidae","Atheriniformes","Teleostei","Osteichthyes"
+"374",425,"Ophichthidae",NA,NA,NA,"Ophichthidae","Anguilliformes","Teleostei","Osteichthyes"
+"375",452,"Ogcocephalidae",NA,NA,NA,"Ogcocephalidae","Lophiiformes","Teleostei","Osteichthyes"
+"376",461,"Ophidiidae",NA,NA,NA,"Ophidiidae","Ophidiiformes","Teleostei","Osteichthyes"
+"377",490,"Fistularia sp",NA,"Fistularia",NA,"Fistulariidae","Syngnathiformes","Teleostei","Osteichthyes"
+"378",554,"Serranidae",NA,NA,NA,"Serranidae","Perciformes/Serranoidei","Teleostei","Osteichthyes"
+"379",582,"Carangidae",NA,NA,NA,"Carangidae","Carangiformes","Teleostei","Osteichthyes"
+"380",597,"Lutjanidae",NA,NA,NA,"Lutjanidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"381",600,"Squalidae",NA,NA,NA,"Squalidae","Squaliformes","Elasmobranchii","Chondrichthyes"
+"382",620,"Sphyraena sp",NA,"Sphyraena",NA,"Sphyraenidae","Carangaria/misc","Teleostei","Osteichthyes"
+"383",625,"Gerreidae",NA,NA,NA,"Gerreidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"384",630,"Haemulidae",NA,NA,NA,"Haemulidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"385",643,"Sparidae",NA,NA,NA,"Sparidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"386",683,"Labridae",NA,NA,NA,"Labridae","Eupercaria/misc","Teleostei","Osteichthyes"
+"387",733,"Blenniidae",NA,NA,NA,"Blenniidae","Blenniiformes","Teleostei","Osteichthyes"
+"388",739,"Gobiidae",NA,NA,NA,"Gobiidae","Gobiiformes","Teleostei","Osteichthyes"
+"389",759,"Scorpaenidae",NA,NA,NA,"Scorpaenidae","Perciformes/Scorpaenoidei","Teleostei","Osteichthyes"
+"390",773,"Pleuronectidae",NA,NA,NA,"Pleuronectidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"391",794,"Etropus sp",NA,"Etropus",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"392",795,"Bothidae",NA,NA,NA,"Bothidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"393",820,"Balistidae",NA,NA,NA,"Balistidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"394",822,"Trichiuridae",NA,NA,NA,"Trichiuridae","Scombriformes","Teleostei","Osteichthyes"
+"395",851,"Engraulidae",NA,NA,NA,"Engraulidae","Clupeiformes","Teleostei","Osteichthyes"
+"396",855,"Chaetodontidae",NA,NA,NA,"Chaetodontidae","Acanthuriformes","Teleostei","Osteichthyes"
+"397",857,"Uranoscopidae",NA,NA,NA,"Uranoscopidae","Perciformes/Uranoscopoidei","Teleostei","Osteichthyes"
+"398",858,"Sciaenidae",NA,NA,NA,"Sciaenidae","Eupercaria/misc","Teleostei","Osteichthyes"
+"399",860,"Scombridae",NA,NA,NA,"Scombridae","Scombriformes","Teleostei","Osteichthyes"
+"400",861,"Tetraodontidae",NA,NA,NA,"Tetraodontidae","Tetraodontiformes","Teleostei","Osteichthyes"
+"401",866,"Citharichthys sp",NA,"Citharichthys",NA,"Cyclopsettidae","Pleuronectiformes","Teleostei","Osteichthyes"
+"402",887,"Gonostomatidae",NA,NA,NA,"Gonostomatidae","Stomiiformes","Teleostei","Osteichthyes"
+"403",896,"Paralepidae",NA,NA,NA,"Paralepididae","Aulopiformes","Teleostei","Osteichthyes"
+"404",900,"Lophiiformes",NA,NA,NA,NA,"Lophiiformes","Teleostei","Osteichthyes"

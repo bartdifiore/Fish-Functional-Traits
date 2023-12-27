@@ -223,7 +223,7 @@ final_trait_db <- trait_db %>%
   bind_rows(needed_traits) 
 
 
-write.csv(trait_db, "Data/Derived/trait_database.csv")
+write.csv(final_trait_db, "Data/Derived/trait_database.csv")
 
 
 
