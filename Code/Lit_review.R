@@ -19,3 +19,5 @@ lit_review %>%
   labs(x = "", y = "Frequency")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
+
+ggsave("Figures/lit_review_traits.png")

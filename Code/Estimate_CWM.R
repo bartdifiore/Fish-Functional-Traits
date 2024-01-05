@@ -1,6 +1,6 @@
 library(tidyverse)
 
-
+source("Code/CWM_functions.R")
 
 # Pull in the species list and trait database
 
@@ -66,14 +66,16 @@ cwm_df$trophic_level[1:6] # Estimates are the same
 cwm_df2 <- cwm_df %>% 
   left_join(trawl_meta)
 
+write.csv(cwm_df2, "Data/Derived/CWM_dataset.csv", row.names = F, quote = F)
+
 cwm_df2 %>% 
-  group_by(est_year, season) %>% 
+  group_by(est_year, season, survey_area) %>% 
   summarize(across(trophic_level:max_obs_length, mean)) %>%
   group_by(est_year, season) %>% 
   pivot_longer(cols = trophic_level:max_obs_length) %>%
   ggplot(aes(x = est_year, y = value))+
   geom_line(aes(color = season))+
-  facet_wrap(~name, scales = "free")
+  facet_grid(rows = vars(name), cols = vars(survey_area), scales = "free")
 
 
 
