@@ -231,9 +231,151 @@ Here, I've just included some simple models to spur conversation. However, this 
 
 ### Spatiotemporal model results
 
-To relax the assumption that there was not spatial structure to the data within each region, I also fit preliminary geospatial GLMMs (e.g. sdmTMB) to the CWM values for each trait. To date (1/04/24), I have not constructed the data set of driver variables. Therefore, each of these models represent an intercept only model with no fixed effects (see methods), no random intercept effects, and spatiotemporal intercept random fields.
+To relax the assumption that there was not spatial structure to the data within each region, I also fit preliminary geospatial GLMMs (e.g. sdmTMB) to the CWM values for each trait. To date (1/04/24), I have not constructed the data set of driver variables. Therefore, each of these models represent an intercept only model with either no fixed effects or a single fixed effect of season (see methods), no random intercept effects, and spatiotemporal intercept random fields.
 
-As an example, Fig. 5 shows some of the predicted output from one of these models fit to the length at maturity CWM data. 
+As an example, Fig. 5 shows some of the predicted output from one of these models fit to the length at maturity CWM data.  
+
+```{r, include = T, fig.cap="Figure 5. Predicted CWM length at maturity across the Northeast U.S. shelf for the fall season. Predictions are averaged across decades for visualization purposes. However, the model generates predictions for the entire grid in each season in each year."}
+
+library(tidyverse)
+library(sdmTMB) # This is the workhorse to do the spatio-temporal modeling
+library(sf)
+source("Code/theme.R")
+#-----------------------------
+## Read in the data
+#-----------------------------
+
+df <- read.csv("Data/Derived/CWM_dataset.csv") %>% 
+  as_tibble() %>%
+  add_utm_columns(ll_names = c("decdeg_beglon", "decdeg_beglat"), units = "km")
+
+#----------------------------------------------
+## Build a simple spatial random fields model
+#----------------------------------------------
+
+# Make the mesh
+mesh <- make_mesh(df, c("X", "Y"), cutoff = 30)
+
+# Fit a spatiotemporal model
+m_lengthmaturity <- sdmTMB(
+  data = df,
+  formula = length_maturity ~ season,
+  mesh = mesh,
+  family = gaussian(link = "identity"),
+  spatial = "on",
+  time = "est_year",
+  spatiotemporal = "IID"
+)
+
+#-------------------------------------------
+## Set up the map
+#-----------------------------------------
+
+points <- df %>% 
+  select(X,Y) %>% 
+  st_as_sf(coords = c("X","Y"))
+
+boundary <-  df %>% 
+  select(X,Y) %>% 
+  st_as_sf(coords = c("X","Y")) %>% 
+  st_union() %>%
+  st_concave_hull(ratio = 0.01, allow_holes = F) %>% 
+  st_buffer(dist = 10)
+
+
+pred_grid <- df %>% 
+  select(X,Y) %>% 
+  st_as_sf(coords = c("X","Y")) %>% 
+  st_make_grid(cellsize = 10, what = "centers") %>% 
+  st_intersection(boundary)
+
+coords <- as.data.frame(st_coordinates(pred_grid))
+
+pred_grid_df <- data.frame(X = rep(coords$X, times = 2), Y = rep(coords$Y, times=2), season = rep(c("Spring", "Fall"), each = length(coords$X)) )
+
+
+grid_yrs <- replicate_df(pred_grid_df, "est_year", unique(df$est_year))
+
+
+extent <- df %>%
+  st_as_sf(coords = c("decdeg_beglon", "decdeg_beglat"), crs = "+proj=longlat +datum=WGS84") %>%
+  st_bbox()
+
+extent <- extent + c(-1, -2, 1, 0.5) # Add a little buffer for visualization purposes
+
+
+coast_utm <- rnaturalearth::ne_coastline(scale = 10) %>%
+  st_crop(extent) %>%
+  st_transform(crs = "+proj=utm +zone=19 +ellps=WGS84 +datum=WGS84 +units=m +no_defs")
+
+#------------------------------------------
+## Predict and plot
+#-----------------------------------------
+
+predictions = predict(m_lengthmaturity, newdata = grid_yrs)
+  
+predictions %>% 
+    mutate(X.m = X*1000, 
+           Y.m = Y*1000, 
+           decade = case_when(est_year < 1980 ~ "1970-1979", 
+                              est_year >= 1980 & est_year < 1990 ~ "1980-1989", 
+                              est_year >= 1990 & est_year < 2000 ~ "1990-1999", 
+                              est_year >= 2000 & est_year < 2010 ~ "2000-2009", 
+                              est_year >= 2010 ~ "2010-2019")) %>% 
+    group_by(X.m, Y.m, season, decade) %>%
+    summarize(mean_est = mean(est)) %>%
+    filter(season == "Fall") %>%
+    ggplot()+
+    geom_raster(aes(x = X.m, y = Y.m, fill = mean_est))+
+    geom_sf(data = coast_utm) +
+    scale_fill_viridis_c()+
+    labs(x = "", y = "")+
+    facet_wrap(~decade)+
+    theme_bw()+
+    ggtitle("Model prediction of FALL CWM length at maturity\n(Averaged across decades)")
+
+```
+
+What is interesting about this approach is that we can examine the model output from many different perspectives. We could generate predictions across different spatial domains. For example, the EPUs, and then extract time series of average trends across the area. Alternatively we could extract the center of gravity for traits to see how it was changed through time. Fig. 6 is an example of this for length at maturity. Please note that while this figure is compelling, the scale is tiny. These changes to the north east only reflect a shift of <100 km in 50 years.
+
+```{r, include=T, fig.cap = "Figure 6. Center of gravity estimates in each year for CWM length at maturity."}
+
+m_lengthmaturity2 <- sdmTMB(
+  data = df,
+  formula = length_maturity ~ -1 + as.factor(est_year) ,
+  mesh = mesh,
+  family = gaussian(link = "identity"),
+  spatial = "on",
+  time = "est_year",
+  spatiotemporal = "IID"
+)
+
+
+pred_grid_df <- as.data.frame(st_coordinates(pred_grid))
+
+grid_yrs <- replicate_df(pred_grid_df, "est_year", unique(df$est_year))
+
+predictions2 = predict(m_lengthmaturity2, newdata = grid_yrs, return_tmb_object = T)
+
+test <- get_index(predictions2, area = 100, bias_correct = T)
+
+cog <- get_cog(predictions2, area = 100)
+cog %>%
+  select(est_year, est, lwr, upr, coord) %>%
+  pivot_wider(names_from = coord, values_from = c(est, lwr, upr)) %>%
+  mutate(across(est_X:upr_Y, ~.x * 1000)) %>%
+  rename(X=est_X, Y = est_Y) %>%
+  ggplot() +
+  geom_pointrange(aes(x = X, y = Y, xmin = lwr_X, xmax = upr_X, color = est_year)) +
+  geom_pointrange(aes(x = X, y = Y, ymin = lwr_Y, ymax = upr_Y, color = est_year)) +
+  # geom_sf(data = coast_utm)+
+  scale_colour_viridis_c()
+
+
+```
+
+
+
 
 ## Data availability
 

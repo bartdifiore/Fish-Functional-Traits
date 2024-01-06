@@ -185,5 +185,23 @@ ggsave("Figures/Raw-trophiclevel.png", p2)
 
 
 
+m_lengthmaturity2 <- sdmTMB(
+  data = df,
+  formula = length_maturity ~ 0 + as.factor(est_year) ,
+  mesh = mesh,
+  family = gaussian(link = "identity"),
+  spatial = "on",
+  time = "est_year",
+  spatiotemporal = "IID"
+)
 
 
+pred_grid_df <- as.data.frame(st_coordinates(pred_grid))
+
+grid_yrs <- replicate_df(pred_grid_df, "est_year", unique(df$est_year))
+
+
+predictions2 = predict(m_lengthmaturity2, newdata = grid_yrs, return_tmb_object = T)
+
+test <- get_index(predictions2, area = 100, bias_correct = T)
+test
