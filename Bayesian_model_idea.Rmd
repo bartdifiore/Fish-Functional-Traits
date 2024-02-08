@@ -1,0 +1,231 @@
+---
+title: "Bayesian structgure"
+output: html_document
+date: "2024-02-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# A simple heirarchical model that examines the effects of drivers at different scales on a response variable. 
+
+The idea here is that we have different EPU's and we are often trying to estimate how some response variable will change across all EPU's and within the different EPU's as a function of covariates (like temperature, harvest, NAO, or gulf stream index). However, each one of these drivers variables is collected on a different scale than the EPU. 
+
+There is an added layer of complexity here, where the response variables are also often collected at a scale finer than the EPU, but for now I want to explore developing a model where the response is on the EPU scale. 
+
+For simplicity lets call our response variable $y$ and we can imagine that it is the abundance of a particular stock. For now each EPU in each year has a single value of $y$ such that $y_{t,r}$ represents the value of $y$ in year $t$ in region (EPU) $r$. 
+
+Certain variables operate across all regions. For instance, NAO and gulf stream index are the same across all regions in a year. Other variables are defined at the EPU scale. So for example, lets assume for a second that average spring sst, average fall sst, and harvest are indexed at the EPU scale.
+
+Ok so we want a heirarchical model where our covariate, $NAO_t$ impacts $\mu_{y,t}$, and two other covariates $Harvest_{t,r}$ and $SST_{t,r}$ impact $y_{t,r}$. 
+
+The following model will fit a population level trend for the influence of $NAO_t$ on the response, and varying intercepts for the relationship between response, harvest, and SST for each region. This model will NOT fit varying slopes. 
+
+$$ \begin{align}
+
+
+\mu_{pop} = \alpha_{0,pop} + \beta_{NAO} NAO_t \\
+
+\mu_r = \mu_{pop} + \gamma_r + \beta_H Harvest + \beta_{SST} SST \\
+
+y_{t,r} \sim Normal(\mu_r, \sigma^2)\\
+
+
+\end{align}$$
+If we want to adapt the model to fit varying slopes, things get a bit trickier. Let me do a bit of rearranging to match Gelman et al.
+
+$$\begin{align}
+
+y_{t,r} &\sim Normal(\mu_r, \sigma^2) && \text{Likelihood function}\\
+\mu_{pop} &= \alpha_{0,pop} + \beta_{NAO} NAO_t && \text{NAO effect across all regions}\\
+\mu_r &= \mu_{pop} + \gamma_r + \beta_{H,r} Harvest + \beta_{SST,r} SST && \text{Linear model of regional effects} \\
+\begin{bmatrix}
+\gamma_r\\
+\beta_{H,r}\\
+\beta_{SST,r}
+\end{bmatrix} &= MVNormal(\begin{bmatrix}\gamma\\ \beta_H\\\beta_{SST} \end{bmatrix}, S) && \text{Joint prior for varying effects}\\
+S &= \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} R \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} && \text{construct covariance matrix}
+
+\end{align}$$
+
+The first three lines of this model are largely the same as the varying intercept model above. However, now we are fitting varying slopes and intercepts for the effects of harvest and SST on the response. For a full description of the model, syntax, and notation see p. 393 in Gelman's **Statistical Rethinking**.
+
+
+# Temporal autocorrelation
+
+So much if not all of the data that I work with (and most fishery data) is longitudinal, e.g. it is collected through time. And in most instances the abundance of some variable of interest is dependent on the abundance of that variable in a previous time step. In a perfect world I would be able to account for this covariance structure in the data. 
+
+The basic idea from [this blog post](https://agabrioblog.onrender.com/stan/autocorrelation-stan/autocorrelation-stan/) is you need to include an error term associated with the residual variation due to temporal autocorrelation. Let's let $\epsilon$ represent residual error associated with the previous time step, and include a new parameter $\rho$, the autocorrelation parameter.
+
+For a simple linear model: 
+
+$$
+\begin{aligned}
+
+y \sim Dist(\mu)\\
+\mu = \alpha_0 + \beta x\\
+
+\end{aligned}$$
+
+Now if we want to account for temporal autocorrelation, we need to make $\mu$ a function of the residual error from the previous time step $\epsilon$ and $\rho$ the autocorrelation paramter. So: 
+$$
+\begin{aligned}
+
+y_{i,t} \sim Dist(\mu_{i,t})\\
+\mu_{i,t} = \alpha_0 + \beta x + \rho \epsilon_{i, t-1}
+
+\end{aligned}
+$$
+
+The only additional line in the model would be a prior on $\rho$, which is generally assumed to be [-1,1].
+
+Ok, so how then do we incorporate that into the more complex varying effects model? Well we will need to include the residual error term and the autocorrelation parameter into the model
+
+$$
+\begin{align}
+y_{t,r,i} &\sim Normal(\mu_{r,t,i}, \sigma^2) && \text{Likelihood function}\\
+\mu_{pop} &= \alpha_{0,pop} + \beta_{NAO} NAO_t && \text{NAO effect across all regions}\\
+\mu_{t,r} &= \mu_{pop} + \gamma_r + \beta_{H,r} Harvest + \beta_{SST,r} SST + \Omega && \text{Linear model of region effects} \\
+\Omega &= \rho \epsilon_{t-1} && \text{Temporal autocorrelation}\\ 
+\begin{bmatrix}
+\gamma_r\\
+\beta_{H,r}\\
+\beta_{SST,r}
+\end{bmatrix} &\sim MVNormal(\begin{bmatrix}\gamma\\ \beta_H\\\beta_{SST} \end{bmatrix}, S) && \text{Joint prior for varying effects}\\
+S &= \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} R \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} && \text{construct covariance matrix}\\
+\rho &\sim Uniform(-1,1) && \text{Prior on autocorrelation term}\\
+\end{align}
+$$
+
+So the previous sections were written before I reread the [Applied Time Series Analysis for Fisheries and Environmental Science](https://atsa-es.github.io/atsa-labs/) text book. This is the most accessible resource I've found for how to design and build these models. The following is my attempt to translate the model above into the notation used in the ATSA course. 
+
+## Translation of model to state-space frame work
+
+So I'm going to start by eliminating the hierarchical effects of NAO acting across regions, and local covariates operating on regions. 
+
+
+$$
+\begin{aligned}
+x_{t} &= \phi x_{t-1} + \Omega + w_t && \text{Process model}\\
+\Omega &= \alpha_0 + \beta_{H,r} Harvest + \beta_{SST,r} SST && \text{Covariate impacts on process model}\\
+y_t &= x_t + v_t && \text{Observation model}\\
+\end{aligned}
+$$
+So this is a simple univariate state-space model that assumes ar1 autocorrelated errors. $\phi$ is the autocorrelation parameter. $\Omega$ is just a placeholder to reduce complexity in the first line and represents to aggregate effects of the covariates on the true state, $x_t$. $y_t$ are out observations of the true state, $x_t$. $w_t$ is the process variation (or variation due to environmental conditions). $v_t$ is the observation variation (or variation/error due to our ability to observe nature... ex. different survey vessels, etc.). 
+
+As it stands these models need some notational adjustments to work in a Bayesian framework. The key here is that we can reformulate this model as $$ Y_t \sim Dist(E[Y_t],r) $$. And we need to adapt the way that error is associated with the mean values.
+
+$$
+\begin{aligned}
+\text{Transformed parameters}\\
+\mu_{pop} &= \alpha_{0,pop} + \beta_{NAO} NAO_t && \text{NAO effect across all regions}\\
+\mu_{t,r} &= \mu_{pop} + \gamma_r + \beta_{H,r} Harvest + \beta_{SST,r} SST + \rho \mu_{t-1,r} && \text{Linear model of region effects} \\
+\\
+\text{Likelihood}\\
+\\
+
+x_{t,r} &\sim Normal(\mu_{t,r}, w)&& \text{Likelihood process model}\\
+y_{t,r,i} &\sim Normal(x_{t,r}, v) && \text{Likelihood obversation model}\\
+\\
+\text{Priors}
+\\
+\begin{bmatrix}
+\gamma_r\\
+\beta_{H,r}\\
+\beta_{SST,r}
+\end{bmatrix} &\sim MVNormal(\begin{bmatrix}\gamma\\ \beta_H\\\beta_{SST} \end{bmatrix}, S) && \text{Joint prior for varying effects}\\
+S &= \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} R \begin{pmatrix}
+&\sigma_\gamma &0 &0\\
+&0 &\sigma_{B_H} &0 \\
+&0 &0 &\sigma_{B_{SST}}
+\end{pmatrix} && \text{Covariance matrix}\\
+\rho &\sim Uniform(-1,1) && \text{Prior on autocorrelation term}\\
+\alpha_0 &\sim Normal(0, 10) && \text{Prior on global intercept}\\
+\beta_{NAO} &\sim Normal(0, 10) && \text{Prior on effect of NAO}\\
+w &\sim Exp(1) && \text{Prior on process variance}\\
+v &\sim Exp(1) && \text{Prior on observation variance}\\
+\end{aligned}
+$$
+While I would like to get to the model with varying slopes and intercepts. I think I should start with the simpler model that allows only a varying intercept effect. This model could be coded as: 
+
+$$
+\begin{aligned}
+\text{Transformed parameters}\\
+\mu_{pop} &= \alpha_{0,pop} + \beta_{NAO} NAO_t && \text{NAO effect across all regions}\\
+\mu_{t,r} &= \mu_{pop} + \gamma_r + \beta_{H} Harvest + \beta_{SST} SST + \rho \mu_{t-1,r} && \text{Linear model of region effects} \\
+\\
+\text{Likelihood}\\
+\\
+
+x_{t,r} &\sim Normal(\mu_{t,r}, w)&& \text{Likelihood process model}\\
+y_{t,r,i} &\sim Normal(x_{t,r}, v) && \text{Likelihood obversation model}\\
+\\
+\text{Priors}
+\\
+\rho &\sim Uniform(-1,1) && \text{Prior on autocorrelation term}\\
+\alpha_0 &\sim Normal(0, 10) && \text{Prior on global intercept}\\
+\beta_{NAO} &\sim Normal(0, 10) && \text{Prior on effect of NAO}\\
+\gamma_r &\sim Normal(0, \sigma_{Region}^2) && \text{Region specific deviation from the global intercept}\\
+\beta_H | \beta_{SST} &\sim Normal(0, \sigma_{H | SST}) && \text{Priors on slope parameters}\\
+\sigma_{H | SST} &\sim Exp(1) && \text{Priors on slope parameter variances}\\
+w &\sim Exp(1) && \text{Prior on process variance}\\
+v &\sim Exp(1) && \text{Prior on observation variance}\\
+\end{aligned}
+$$
+
+
+
+
+## Could we build a model directly from the observational data? 
+
+One of the ideas that has struck me is that I have guesses as the trait values for each species. However, I don't know the true values of these traits. One way to think of this is that I *think* the trophic level of a codfish is 3.72 (totally arbitrary), but I actually don't know and this represents the best informed estimate. That being said, the actual vary could differ. Would there be a way to incorporate a prior on each of the speceis trait estiamtes? Well thinking through the logic of that I would need to estimate a parameter for each species for each trait (e.g. ~400 parameters per trait), which wouldn't be feasible becasue I don't have any data to inform the posteriors. Alternatively, I could simulate distributions for the community weighted mean trait values by resampling from hypothetical variance around each trait value. But that seems like it would become prohibitively complicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

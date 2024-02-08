@@ -1,0 +1,194 @@
+---
+title: "Timeseries hell"
+output: html_document
+date: "2024-02-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, include = T)
+
+library(tidyverse)
+```
+
+# Definition of stationarity
+
+-- no change in mean or variance. 
+
+-- no systematic trend (e.g. change in the mean). 
+
+-- no oscillations or seasonality. 
+
+
+
+# Random walk model
+
+Based on the SAFS course this is the mathematical definition of a random walk
+
+$$x_t = x_{t-1} + w_t$$
+
+Here is some code to simluate a random walk process: 
+
+```{r}
+
+n = 100
+white_noise <- rnorm(100)
+
+out <- vector(length = n)
+out[1] <- 10
+
+for(i in 2:n){
+  out[i] = out[i-1] + white_noise[i]
+}
+
+plot(out)
+
+
+```
+
+Similarly, a biased random walk just has some additive influence at each time step: 
+
+$$x_t = x_{t-1} + \mu +  w_t$$
+
+The SAFS course proves that RW models are NOT stationary, but I'll be honest I can't really figure out logically why. 
+
+
+# AR(1) model
+
+So the ar1 model is almost exactly the same as the random walk model. The only difference is that is has a phi parameter. So $w_t$ is exactly the same (just random white noise, eg. rnorm(n)), that is added to the observation in the previous time step. EXCEPT that the previous time step is now multiplied by $\phi$
+
+$$x_t = \phi x_{t-1} + w_t$$
+Here is some code to generate a ar1 time series.
+
+```{r}
+
+n = 100
+white_noise <- rnorm(100)
+
+out <- vector(length = n)
+out[1] <- 10
+phi = 0.5
+
+for(i in 2:n){
+  out[i] = phi*out[i-1] + white_noise[i]
+}
+
+plot(out)
+
+```
+
+The SAFS course argues that a ar1 time series is only stationary if $0 < \phi < 1$. There is also something about negative $\phi$ but I didn't follow all that. 
+
+
+# Random walk model with a linear trend
+
+So if we want to generate a time series model with a linear trend we need to incorporate a slope $m$ (also refered to as drift) and an intercept $\alpha_0$. We could think of this as:
+
+$$ 
+\begin{aligned}
+\sigma_{RW} = x_{t-1} + w_t \\
+\mu = \alpha_0 + mt + \sigma_{RW}\\
+\end{aligned}
+$$
+Where $w_t$ is white noise, $m$ is the slope, $t$ is an index of time (like year), and $\sigma_{RW}$ is random walk error. 
+
+We can simulate this process using the following code. And fit a simple lm regression to pull out the linear trend. We can also see that there are still autocorrelated errors by the ACF plot of the residuals.
+
+```{r}
+set.seed(123)
+n = 100
+t = 1:n
+sd = 50
+mean_noise = 0
+white_noise <- rnorm(n, mean_noise, sd)
+
+out <- vector()
+out[1] <- 100
+m = 15
+a0 = 100
+
+ts <- vector()
+for(i in 2:n){
+  out[i] = out[i-1] + white_noise[i]
+  ts[i] = a0 + m*t[i] + out[i] 
+}
+
+
+lm1 <- lm(ts ~ t)
+summary(lm1)
+
+plot(ts ~ t)
+abline(lm1)
+acf(residuals(lm1))
+
+library(nlme)
+df <- data.frame(ts = ts, t = t) %>% drop_na(ts)
+gls_rw <- gls(ts ~ t, df, correlation = corAR1())
+gls_rw
+
+```
+When we use gls() we can see that $\phi$ is close to 1, which makes sense because a random walk is just a ar1(), where $\phi \to 1$.  
+
+
+# AR1 model with a linear trend
+
+So if we use similar logic we could simulate a ar1 model with a linear trend. 
+
+$$ 
+\begin{aligned}
+\sigma_{RW} = \phi x_{t-1} + w_t \\
+\mu = \alpha_0 + mt + \sigma_{RW}
+\end{aligned}
+$$
+
+Where again $w_t$ is white noise, $m$ is the slope, $t$ is an index of time (like year), and $\sigma_{RW}$ is random walk error. However, the difference is that now we have the parameter $phi$. 
+
+We can simulate some data to look at the difference: 
+
+```{r}
+set.seed(123)
+n = 100
+t = 1:n
+sd = 50
+mean_noise = 0
+white_noise <- rnorm(n, mean_noise, sd)
+
+out <- vector()
+out[1] <- 100
+m = 15
+a0 = 100
+phi = 0.5
+
+ts <- vector()
+for(i in 2:n){
+  out[i] = phi*out[i-1] + white_noise[i]
+  ts[i] = a0 + m*t[i] + out[i] 
+}
+
+
+lm1 <- lm(ts ~ t)
+summary(lm1)
+
+plot(ts ~ t)
+abline(lm1)
+acf(residuals(lm1))
+
+df <- data.frame(ts = ts, t = t) %>% drop_na(ts)
+library(nlme)
+
+gls1 <- gls(ts ~ t, df, correlation = nlme::corAR1()) 
+summary(gls1)
+
+
+```
+
+So when you look at the output from the gls1 which is just a simple linear regression with ar1 correlated errors we see that we can recover the value of $phi$. 
+
+# Getting back to the original question:
+
+Ok, so Andrew I'm pretty sure what you were asking was are projections/simulations from a ar1 model more/less likely to show a trend vs. jump around some averagae value (be relatively stable). So I think after playing around with this a bit, that the answer is that neither an ar1 or a rw model is more likely to show a trend. Like you mentioned on slack, as $phi$ --> 1 an ar1 model approaches a rw model. So the way I see it there has to be some underlying process, independent of the ar1 or rw process that is causing a linear (or nonlinear) trend through time. 
+
+
+
+
+
+
