@@ -23,13 +23,37 @@ df <- df_raw %>%
   filter(svspp %in% svspp_vec) # Filter out the data set for only the fish species that we found traits for. 
 
 
-# Estimate CWM at the scale of the trawl
+# Bring in Stat regions for aggregation
 
-biomass_mat <- df %>% 
+library(sf)
+library(tidyverse)
+
+stat <- sf::read_sf("Data/Spatial/Statistical_Areas-selected/Statistical_Areas_2010_withNames.shp") %>%
+  st_make_valid()
+
+pj_crs <- st_crs(stat)
+
+plot(stat["geometry"])
+
+stat$Id[st_is_valid(stat)==F]
+
+stat <- stat %>%
+  filter(Id != 706) %>% # Get rid of the one geometry that is invalid.
+  select(Id, geometry)
+
+
+# Estimate CWM at the scale of the stat region
+
+biomass_mat <- df %>%
+  st_as_sf(coords = c("decdeg_beglon", "decdeg_beglat")) %>% 
+  st_set_crs("+proj=longlat +datum=WGS84 +no_defs +type=crs") %>%
+  st_transform(crs = pj_crs) %>%
+  st_join(stat) %>%
+  st_drop_geometry() %>%
   ungroup() %>%
-  group_by(est_year, season, survey_area, svspp) %>%
-  summarize(biomass_kg = sum(biomass_kg, na.rm = T)) %>% # Here I'm summing the biomass for each species in each block in each season and year. Should I take the average? 
-  select(svspp, survey_area, est_year, season, biomass_kg) %>%
+  group_by(est_year, season, Id, svspp) %>%
+  summarize(biomass_kg = sum(biomass_kg, na.rm = T)) %>% # Here I'm summing the biomass for each species in each block in each season and year.
+  select(svspp, Id, est_year, season, biomass_kg) %>%
   pivot_wider(names_from = svspp, values_from = biomass_kg, values_fill = 0, names_sort = T)
 
 bio.mat <- as.matrix(biomass_mat[,-c(1:3)])
