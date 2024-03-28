@@ -82,13 +82,9 @@ cat("
     beta_H ~ normal(0, sigma_H);
     beta_NAO ~ normal(0, 1);
     
-    for(r in 1:n_r){
-      gamma[r] ~ normal(0, sigma_r);
-    }
     
-    for(r in 1:n_r){
-      x0[r] ~ normal(0, sigma_x0);
-    }
+    gamma ~ normal(0, sigma_r); // Indexed by region... so 4 gammas
+    x0 ~ normal(0, sigma_x0); // Indexed by region ... so 4 x0
     
     // likelihood
     

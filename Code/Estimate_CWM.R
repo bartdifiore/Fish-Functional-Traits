@@ -30,6 +30,7 @@ trawl_meta <- df %>% # Pull out the two level observations for merging back late
   select(cruise6:botsalin, strat_num, survey_area) %>% 
   distinct()
 
+# Estimate CWM at the scale of the trawl
 
 biomass_mat <- df %>% 
   ungroup() %>%
@@ -66,7 +67,13 @@ cwm_df$trophic_level[1:6] # Estimates are the same
 cwm_df2 <- cwm_df %>% 
   left_join(trawl_meta)
 
-write.csv(cwm_df2, "Data/Derived/CWM_dataset.csv", row.names = F, quote = F)
+write.csv(cwm_df2, "Data/Derived/CWM_trawl_dataset.csv", row.names = F, quote = F)
+
+
+
+# Estimate CWM at the scale of the trawl
+
+
 
 cwm_df2 %>% 
   group_by(est_year, season, survey_area) %>% 
