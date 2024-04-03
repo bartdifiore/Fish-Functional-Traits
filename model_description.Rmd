@@ -1,0 +1,60 @@
+---
+title: "Model logic and design"
+author: "Bart DiFiore"
+date: "2024-03-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## What are the central questions we are trying to answer? 
+
+We know that temperature and harvest have--and will continue to--impact marine communities. In general, theory and empirical evidence from other ecosystems, suggests that temperature and havest can both drive increases in life history parameters at both the population and communtiy scale (e.g. increased individual growth rate, younger age- or size-at maturity). Plainly speaking, increases in temperature and harvest pressure should result in communities dominated by "live-fast, die young" life-history strategies. 
+
+However, we don't yet have empirical tests of this predictions for the U.S. Northeast shelf ecosystem. Therefore, we sought to answer the following questions: 
+
+1. How have mairine fish traits shifted through time and across space? 
+  - And, specifically, have there been increases in traits associated with faster life histories either at a single location through time? Or at more northerly (or easterly) geographies due to range expansion of species? 
+  
+  
+So to test these questions, we implicitly need to focus on both time and space. However, we need to be cognizant of the fact that for example, temperature at location x, at time t, is unlikely going to drive patterns in traits instantaneously. Rather shifts in communities towards faster life histories will likely manifest over broader spacial scales and timelines. Furthermore, we are limited by the temporal and spacial resolution of the available data, and there is a need for research findings to match management relevant scales. Therefore, we decided to focus our analysis on the statitical areas set by NOAA nested within the larger EPU's (ecological production units) across which many ecosystem level metrics are assessed. 
+
+What we want from this model is the ability to predict changes in CW traits through time based on temperature and landings in each statistical block and in each EPU. For the moment lets assume we are dealing with a single trait/response (versus fitting a model that tested for differences in different traits). 
+
+We have aggregated the survey data and bottom temperature data to the statistical area so that it matches the scale of the landings data. Thus each stat area (s) has a single observation of y, temp, and landings in each season, in each year. Lets ignore season for the time being. 
+
+At its core, we want a linear model where the response y, is a funciton of temperature and landings. However, we want estimates for the effect of temperature and landings on y (e.g. the slope) in each EPU and stat area. Critically, if a stat area is within an EPU we are assuming that the effect of temperature or landings will be more similar than a stat area in a different EPU. Thus we need hyperpriors for each EPU which inform the slopes of each stat area in that EPU. 
+
+Let's try and write this out: 
+
+$$
+\begin{align}
+
+y_i &\sim Normal(\mu_i, \sigma)\\
+
+\mu_i &= \alpha_{pop[epu[s]]} + \beta_{1[epu[s]]} L + \beta_{2[epu[s]]}T \\
+
+\alpha_{pop} &\sim Normal(\mu_{[epu]}, \sigma_{\alpha, pop})\\
+\alpha_s &\sim Normal(\alpha_{pop}, \sigma_{} )\\
+\beta_1 &\sim Normal(\beta_{1,s})
+
+
+
+\end{align}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
